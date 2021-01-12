@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  /*https://shopify24.ru/*/
+  /*https://shopify.dev/concepts/shopify-introduction*/
   return (
     <div className="App">
       <header className="App-header">
