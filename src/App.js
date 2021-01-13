@@ -1,27 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.module.scss';
+import Header from "./modules/Header/Header";
+import React from "react";
+import Aside from "./modules/Aside/Aside";
+import Footer from "./modules/Footer/Footer";
 
 function App() {
   /*https://shopify24.ru/*/
   /*https://shopify.dev/concepts/shopify-introduction*/
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <main>
+                Main
+            </main>
+            <Aside/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
