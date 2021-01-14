@@ -3,7 +3,9 @@ import s from './Errors.module.scss';
 
 const Errors = () => {
     return (
-        <section className={s.errors}>Errors</section>
+        <section className={s.errors}>
+            <h1>Not found :-(</h1>
+        </section>
     )
 };
 

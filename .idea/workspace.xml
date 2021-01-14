@@ -2,38 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/ic-user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/About/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/About/About.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Main/Main.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variables.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/logout.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/svg/logout.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Errors/Errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Refund/Refund.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +48,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Navbar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,16 +57,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\shopify\src\components\Navbar" />
-      <recent name="D:\OpenServer\domains\shopify\src" />
-      <recent name="D:\OpenServer\domains\shopify\src\temp" />
-      <recent name="D:\OpenServer\domains\shopify\src\assets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
       <recent name="D:\OpenServer\domains\shopify\src\temp" />
       <recent name="D:\OpenServer\domains\shopify\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\shopify\src\assets\img\pages" />
+      <recent name="D:\OpenServer\domains\shopify\src\components\Navbar" />
+      <recent name="D:\OpenServer\domains\shopify\src" />
+      <recent name="D:\OpenServer\domains\shopify\src\temp" />
+      <recent name="D:\OpenServer\domains\shopify\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -124,7 +109,8 @@
       <updated>1610464624685</updated>
       <workItem from="1610464629943" duration="6957000" />
       <workItem from="1610515267156" duration="14837000" />
-      <workItem from="1610591601299" duration="7728000" />
+      <workItem from="1610591601299" duration="8494000" />
+      <workItem from="1610607222556" duration="10906000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -147,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610515420798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creating Navbar">
+      <created>1610600078723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610600078723</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +166,7 @@
     </ignored-roots>
     <MESSAGE value="start" />
     <MESSAGE value="core configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="core configuration" />
+    <MESSAGE value="creating Navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating Navbar" />
   </component>
 </project>
