@@ -1,5 +1,47 @@
 @import "Variables.module";
 
+header {
+  grid-area: header;
+  background-color: white;
+}
+
+main {
+  grid-area: main;
+  background-color: $bg_main;
+}
+
+aside {
+  grid-area: side;
+  background-color: yellow;
+}
+
+footer {
+  grid-area: footer;
+  background-color: darkgrey;
+}
+
 .App {
   text-align: center;
+  display: grid;
+  grid-template-areas: 'header' 'main' 'side' 'footer';
+}
+
+@media only screen and (min-width: 768px) {
+  aside {
+    position: fixed;
+    top: 100px;
+    right: 0;
+  }
+  main {
+    border-top-left-radius: 20px;
+  }
+  .App {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    grid-template-areas: 'header main' 'footer main';
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 1fr 30%;
+  }
 }

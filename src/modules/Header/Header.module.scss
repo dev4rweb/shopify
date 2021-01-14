@@ -1,3 +1,120 @@
-.header {
+@import "../../Variables.module";
 
+.header {
+  .logo {
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+
+    .logo_box {
+      img {
+        width: 85px;
+      }
+    }
+
+    .account_box {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      width: 70%;
+
+      .user {
+        width: 60px;
+        height: 57px;
+      }
+
+      .logout {
+        display: none;
+        img{
+          height: 27px;
+        }
+      }
+
+      .account_info {
+        display: none;
+
+        p {
+          margin-top: 0;
+          margin-bottom: 0;
+          font-size: 18px;
+          color: $blueText;
+          font-weight: bold;
+        }
+
+        a{
+          font-size: 14px;
+          text-decoration: underline;
+        }
+      }
+
+      .basket {
+        position: relative;
+        margin-left: 10px;
+
+        img {
+          width: 60px;
+          height: 59px;
+        }
+
+        span {
+          position: absolute;
+          right: -9px;
+          top: -10px;
+          background-color: $bg_color;
+          color: $menuTextColor;
+          padding: 8px 12px;
+          font-size: 18px;
+          font-weight: bold;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  .menu {
+
+  }
+}
+
+.active_link {
+}
+
+@media only screen and (min-width: 480px) {
+  .header{
+    .logo {
+      .account_box{
+        width: 62%;
+        justify-content: space-around;
+        .user{
+          display: none;
+        }
+        .logout{
+          display: block;
+
+        }
+        .account_info{
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    .logo {
+      flex-direction: column;
+
+      .account_box {
+        align-items: center;
+        justify-content: center;
+
+        .account_info {
+
+        }
+      }
+    }
+  }
 }

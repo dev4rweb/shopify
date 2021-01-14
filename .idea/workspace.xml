@@ -2,145 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TODO.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Variables.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/3d-printing-software.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/Contacts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/about-page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/aboutus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/adobe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/antivirus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/automatic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/contact.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/corel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/credit-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/delivery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/enter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/exchange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/garantia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-credit-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-delivery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-instruction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-link.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-payment-method.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-webmoney.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/instruction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/link.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/logo-change.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/logo200x200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/logo250x250.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/logout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/payment-method.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/promo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/refund.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/reward.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/shopping-basket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/support.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/telegram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/webmoney.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/windows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Captivate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud - All Apps 1 Months.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud - All Apps 12 Months.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud Photography 20GB 12 Months.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud Photography 20GB 3 Months.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud Photography 20GB 6 Months.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Photoshop Elements.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Premiere Elements 2020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Presenter 11.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/AVG TunelUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/AVG internet security.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/AVG vpn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Avast Inernet Security.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee antivirus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee internet security.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee livesafe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee total protection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome advanced.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome complete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome essential.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome premium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton 360 premium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton Spremium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton antivirus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton sDeluxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton wifi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Corel/Corel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Corel/CorelUltimate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Maya/autodesk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Vmware/vmware.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/OC/Microsoft Windows 10 Home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/OC/Microsoft Windows 10 Professional.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/Microsoft Visio 2019 Professional.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft office 365 Personal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft office Home and Business.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft office Home and Student.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft project 2019 professional.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 Datacenter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 Essentials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 RDS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 Standard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/3d-printing-software.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/Contacts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/aboutus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/adobe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/antivirus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/automatic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/bars-solid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/contact.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/corel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/credit-card.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/delivery.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/enter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/exchange.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/garantia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/ic_office.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/ic_windows.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/instruction.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/key.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/like.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/logout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/payment-method.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/settings.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/shopping-basket-grey.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/shopping-basket-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/support.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/viber-brands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/webmoney.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/whatsapp-brands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/windows.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Aside/Aside.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Aside/Aside.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Header/Header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temp/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temp/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/svg/ic-user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/About/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/About/About.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Main/Main.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variables.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/logout.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/svg/logout.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.module.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +64,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Navbar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -180,14 +73,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\shopify\src\temp" />
-      <recent name="D:\OpenServer\domains\shopify\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\shopify\src\components\Navbar" />
       <recent name="D:\OpenServer\domains\shopify\src" />
       <recent name="D:\OpenServer\domains\shopify\src\temp" />
       <recent name="D:\OpenServer\domains\shopify\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
+      <recent name="D:\OpenServer\domains\shopify\src\temp" />
+      <recent name="D:\OpenServer\domains\shopify\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -228,6 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610464624685</updated>
       <workItem from="1610464629943" duration="6957000" />
+      <workItem from="1610515267156" duration="14837000" />
+      <workItem from="1610591601299" duration="7728000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -243,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610465716397</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="core configuration">
+      <created>1610515420798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610515420798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +158,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -262,7 +168,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/shopify" />
+    </ignored-roots>
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="core configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="core configuration" />
   </component>
 </project>

@@ -1,4 +1,5 @@
 $bg_color: #e8eff4;
+$bg_main: #9BB8C2;
 $menuTextColor: #95a0c2;
 $blueText: #6880f8;
 $blueColor: #00ccff;
@@ -8,3 +9,19 @@ $btnBuyBg: #89c5c3;
 $btnBuyBgAdd: #86bdbb;
 $inputBorder: #d5e0e8;
 $inputBg: #e5edf2;
+
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: $menuTextColor;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  &:hover{
+    color: $blueText;
+  }
+}
