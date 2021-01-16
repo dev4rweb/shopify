@@ -27,6 +27,11 @@
     height: 100%;
 
     & a {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
       color: $menuTextColor;
       width: 100%;
       align-self: auto;
@@ -36,6 +41,11 @@
       -o-transition: background .2s linear;
       transition: background .2s linear;
 
+      &::before {
+        @include iconMenu();
+
+      }
+
       &:hover {
         //background-color: goldenrod;
         color: $blueText;
@@ -43,6 +53,36 @@
         -moz-border-radius: 3px;
         border-radius: 3px;
       }
+    }
+
+    /*about*/
+    a[href="/about"]::before {
+      @include iconMenu($url: "assets/img/svg/aboutus.svg");
+    }
+
+    /*contacts*/
+    a[href="/contacts"]::before {
+      @include iconMenu($url: "assets/img/svg/Contacts.svg");
+    }
+
+    /*guarantee*/
+    a[href="/guarantee"]::before {
+      @include iconMenu($url: "assets/img/svg/garantia.svg");
+    }
+
+    /*delivery*/
+    a[href="/delivery"]::before {
+      @include iconMenu($url: "assets/img/svg/payment-method.svg");
+    }
+
+    /*refund*/
+    a[href="/refund"]::before {
+      @include iconMenu($url: "assets/img/svg/exchange.svg");
+    }
+
+    /*payment*/
+    a[href="/payment"]::before {
+      @include iconMenu($url: "assets/img/svg/payment-method.svg");
     }
   }
 }
@@ -59,6 +99,18 @@
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
+}
+
+.active {
+
+}
+
+.nextOfActive {
+
+}
+
+.prevOfActive {
+
 }
 
 .toggle {
@@ -106,15 +158,76 @@
 }
 
 @media only screen and (min-width: 768px) {
-  header{
+  header {
     height: 100%;
   }
   .toggle {
     display: none;
   }
 
+
   .menu {
     height: 100%;
     flex-direction: column;
+    background-color: white;
+
+    & li {
+      width: 300px;
+      margin-left: 50px;
+
+      a {
+        background-color: white;
+        height: 80%;
+      }
+    }
+  }
+
+
+  .active_link {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    margin-left: 5px;
+  }
+
+  .active {
+    background-color: $bg_main;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    a {
+      -webkit-border-radius: 25px !important;
+      -moz-border-radius: 25px !important;
+      border-radius: 25px !important;
+      margin-right: 5px;
+
+      &:before{
+        position: absolute;
+        opacity: .2;
+        background-size: 7vh !important;
+        width: 7vh !important;
+        height: 7vh !important;
+        left: 30%;
+      }
+    }
+  }
+
+
+  .nextOfActive {
+    background-color: $bg_main;
+
+    a {
+      border-top-right-radius: 25px;
+      height: 100% !important;
+    }
+  }
+
+  .prevOfActive {
+    background-color: $bg_main;
+
+    a {
+      border-bottom-right-radius: 25px;
+      height: 100% !important;
+    }
   }
 }

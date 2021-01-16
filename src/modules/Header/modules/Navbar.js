@@ -3,24 +3,74 @@ import s from './Navbar.module.scss';
 import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
+
+    const menuUrls = ['guarantee', 'payment', 'refund', 'about', 'contacts'];
+    let header = null, footer = null, menu = null;
+
     function collapse(e, data) {
         if (window.innerWidth < 768) {
             let menu = document.getElementsByClassName(s.toggle)[0];
             menu.click();
         }
-        console.log('width - ' + window.innerWidth + ' data - ' + data);
-        console.log('url - ' + document.URL);
+        // console.log('width - ' + window.innerWidth + ' data - ' + data);
+        changeStylesOfItem(header, footer, menu, data);
+    }
+
+    function resetAllItemsStyles(header, footer, menu) {
+        header.style = 'border-bottom-right-radius: 0px;';
+        footer.style = 'border-top-right-radius: 0px;';
+        let items = menu.childNodes;
+        items.forEach((item) => {
+            item.classList.remove(s.active);
+            item.classList.remove(s.prevOfActive);
+            item.classList.remove(s.nextOfActive);
+        });
+    }
+
+    function setItemsClasses(header, footer, items, page, index) {
+        console.log(index);
+        if (page.includes('home')) {
+            header.style = 'border-bottom-right-radius: 25px;';
+            items[0].classList.add(s.active);
+            items[1].classList.add(s.nextOfActive);
+        } else if (page.includes('contacts')) {
+            footer.style = 'border-top-right-radius: 25px;';
+            items[5].classList.add(s.active);
+            items[4].classList.add(s.prevOfActive);
+        } else {
+            items[index + 1].classList.add(s.active);
+            items[index].classList.add(s.prevOfActive);
+            items[index + 2].classList.add(s.nextOfActive);
+        }
+    }
+
+    function changeStylesOfItem(header, footer, menu, currentPage) {
+        let page = 'home';
+        let index = 0;
+        resetAllItemsStyles(header, footer, menu);
+        let items = menu.childNodes;
+        console.log('items.length '+items.length);
+        for (let i = 0; i <= menuUrls.length; i++) {
+            if (currentPage.includes(menuUrls[i])) {
+                // console.log(menuUrls[i] + ' include ' + currentPage);
+                page = menuUrls[i];
+                index = i;
+            }
+        }
+        setItemsClasses(header, footer, items, page, index);
     }
 
     function navbarLoaded() {
         console.log('Navbar Loaded loaded');
         const getHeaderFooter = setInterval(function () {
-            const header = document.querySelector('#header');
-            const footer = document.querySelector('footer');
-            const menu = document.querySelector('#navigation');
+            header = document.querySelector('#header');
+            footer = document.querySelector('#footer');
+            menu = document.querySelector('#navigation');
+            let currentUrl = document.URL;
             if (header != null && footer != null && menu != null) {
                 clearInterval(getHeaderFooter);
                 console.log('find Header Footer Menu');
+                changeStylesOfItem(header, footer, menu, currentUrl);
             }
         }, 1000);
     }

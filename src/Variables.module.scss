@@ -25,3 +25,14 @@ a {
     color: $blueText;
   }
 }
+
+/* Define mixin with one arguments */
+@mixin iconMenu($url: "assets/img/svg/key.svg") {
+  display: inline-block;
+  content: '';
+  background: url($url) no-repeat center center;
+  background-size: 24px;
+  width: 24px;
+  height: 24px;
+  margin-right: 30px;
+}
