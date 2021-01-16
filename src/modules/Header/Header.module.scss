@@ -25,7 +25,8 @@
 
       .logout {
         display: none;
-        img{
+
+        img {
           height: 27px;
         }
       }
@@ -41,7 +42,7 @@
           font-weight: bold;
         }
 
-        a{
+        a {
           font-size: 14px;
           text-decoration: underline;
         }
@@ -60,9 +61,13 @@
           position: absolute;
           right: -9px;
           top: -10px;
+          width: 35px;
+          height: 35px;
           background-color: $bg_color;
           color: $menuTextColor;
-          padding: 8px 12px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           font-size: 18px;
           font-weight: bold;
           -webkit-border-radius: 50%;
@@ -82,19 +87,22 @@
 }
 
 @media only screen and (min-width: 480px) {
-  .header{
+  .header {
     .logo {
-      .account_box{
+      .account_box {
         width: 62%;
         justify-content: space-around;
-        .user{
+
+        .user {
           display: none;
         }
-        .logout{
+
+        .logout {
           display: block;
 
         }
-        .account_info{
+
+        .account_info {
           display: block;
         }
       }
@@ -106,15 +114,41 @@
   .header {
     display: grid;
     grid-template-rows: auto 1fr;
+
     .logo {
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+      padding-bottom: 30px;
+
+      .logo_box img{
+        width: 207px;
+      }
 
       .account_box {
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        margin-left: 0;
+        width: 240px;
+        margin-top: -32px;
 
         .account_info {
 
+        }
+
+        .basket {
+          margin-left: 0;
+
+          img {
+            width: 42px;
+            height: 36px;
+          }
+
+          span {
+            width: 27px;
+            height: 27px;
+          }
         }
       }
     }

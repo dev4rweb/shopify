@@ -7,6 +7,7 @@ const ComingSoon = (props) => {
     let times = 0;
 
     function setTime() {
+
         // Set the date we're counting down to
         let countDownDate = new Date(props.dateString).getTime();
 
@@ -41,7 +42,7 @@ const ComingSoon = (props) => {
 
     let setTimeToEnd = setInterval(function () {
         clock = document.getElementById(props.id);
-        if (times > 10) {
+        if (times > 11) {
             clearInterval(setTimeToEnd)
         }
         if (clock != null) {
@@ -54,7 +55,7 @@ const ComingSoon = (props) => {
 
     return (
         <section className={s.bg_img}>
-            <h2 id={props.id}></h2>
+            <h2 id={props.id}>Coming Soon</h2>
         </section>
     );
 };

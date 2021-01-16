@@ -1,5 +1,5 @@
-import s from './Header.module.scss'
 import React from "react";
+import s from './Header.module.scss'
 import logo from './../../assets/img/png/logo250x250.png'
 import logout from './../../assets/img/svg/logout.svg'
 import user from './../../assets/img/svg/ic-user.svg'
@@ -10,7 +10,7 @@ import {NavLink} from "react-router-dom";
 const Header = () => {
     return (
         <header className={s.header}>
-            <div className={s.logo}>
+            <div className={s.logo} id={`header`}>
                 <div className={s.logo_box}>
                     <img src={logo} alt="logo"/>
                 </div>
@@ -23,10 +23,10 @@ const Header = () => {
                         <p>DesHellArt</p>
                         <NavLink to={`/profile`}>Личный кабинет</NavLink>
                     </div>
-                    <div className={s.basket}>
+                    <NavLink to={`orders`} className={s.basket}>
                         <img src={basket} alt="basket"/>
                              <span>5</span>
-                    </div>
+                    </NavLink>
                 </div>
             </div>
             <Navbar/>

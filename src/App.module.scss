@@ -41,7 +41,7 @@ footer {
     height: 100vh;
     overflow: hidden;
     grid-template-areas: 'header main' 'footer main';
-    grid-template-columns: 25% 1fr;
+    grid-template-columns: 350px 1fr;
     grid-template-rows: 1fr 30%;
   }
 }
