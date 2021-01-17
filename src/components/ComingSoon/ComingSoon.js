@@ -3,7 +3,9 @@ import s from './ComingSoon.module.scss';
 
 const ComingSoon = (props) => {
 
-    let clock = document.getElementById(props.id);
+    const ref = React.createRef();
+
+    let clock = ref.current;
     let times = 0;
 
     function setTime() {
@@ -34,15 +36,15 @@ const ComingSoon = (props) => {
             // If the count down is over, write some text
             if (distance < 0) {
                 clearInterval(countdownfunction);
-                clock.innerHTML = "EXPIRED";
+                clock.innerHTML = "Has been created!";
             }
         }, 1000);
     }
 
 
     let setTimeToEnd = setInterval(function () {
-        clock = document.getElementById(props.id);
-        if (times > 11) {
+        clock = ref.current;
+        if (times > 15) {
             clearInterval(setTimeToEnd)
         }
         if (clock != null) {
@@ -51,11 +53,11 @@ const ComingSoon = (props) => {
         } else {
             times++;
         }
-    }, 500);
+    }, 100);
 
     return (
         <section className={s.bg_img}>
-            <h2 id={props.id}>Coming Soon</h2>
+            <h2 ref={ref}>Coming Soon</h2>
         </section>
     );
 };

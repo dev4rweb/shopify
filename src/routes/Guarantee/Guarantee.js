@@ -6,7 +6,7 @@ const Guarantee = () => {
     return (
         <section className={s.guarantee}>
             <h1>Гарантия</h1>
-            <ComingSoon id={`csGuarantee`} dateString={`Jan 20, 2021 13:00:00`}/>
+            <ComingSoon dateString={`Jan 20, 2021 13:00:00`}/>
         </section>
     )
 };

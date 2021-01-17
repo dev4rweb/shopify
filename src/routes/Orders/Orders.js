@@ -6,7 +6,7 @@ const Orders = () => {
     return (
         <section className={s.orders}>
             <h1>Заказы</h1>
-            <ComingSoon id={`csOrders`} dateString={`February 06, 2021 13:00:00`}/>
+            <ComingSoon dateString={`February 06, 2021 13:00:00`}/>
         </section>
     )
 };

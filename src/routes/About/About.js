@@ -6,7 +6,7 @@ const About = () => {
     return (
         <section className={s.about}>
             <h1>О компании</h1>
-            <ComingSoon id={`csAbout`} dateString={`Jan 26, 2021 13:00:00`}/>
+            <ComingSoon dateString={`Jan 26, 2021 13:00:00`}/>
         </section>
     )
 };

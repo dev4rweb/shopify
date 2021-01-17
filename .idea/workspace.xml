@@ -4,14 +4,23 @@
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variables.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Errors/Errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Orders/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/Orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Refund/Refund.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +136,9 @@
       <workItem from="1610607222556" duration="12323000" />
       <workItem from="1610678787446" duration="5893000" />
       <workItem from="1610707531183" duration="6607000" />
-      <workItem from="1610758521049" duration="12057000" />
+      <workItem from="1610758521049" duration="12461000" />
+      <workItem from="1610813979699" duration="6114000" />
+      <workItem from="1610844923001" duration="8794000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -171,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610758807312</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add icon to navbar">
+      <created>1610771191127</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610771191127</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +218,7 @@
     <MESSAGE value="creating Navbar" />
     <MESSAGE value="creating Page coming soon" />
     <MESSAGE value="creating Preloader" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating Preloader" />
+    <MESSAGE value="add icon to navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add icon to navbar" />
   </component>
 </project>

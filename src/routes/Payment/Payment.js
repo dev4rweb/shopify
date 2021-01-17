@@ -6,7 +6,7 @@ const Payment = () => {
     return (
         <section className={s.payment}>
             <h1>Оплата и доставка</h1>
-            <ComingSoon id={`csPayment`} dateString={`Jan 22, 2021 13:00:00`}/>
+            <ComingSoon dateString={`Jan 22, 2021 13:00:00`}/>
         </section>
     )
 };

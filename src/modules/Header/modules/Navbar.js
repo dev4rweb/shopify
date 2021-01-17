@@ -2,14 +2,14 @@ import React from 'react';
 import s from './Navbar.module.scss';
 import {NavLink} from "react-router-dom";
 
-const Navbar = () => {
-
+const Navbar = (props) => {
     const menuUrls = ['guarantee', 'payment', 'refund', 'about', 'contacts'];
     let header = null, footer = null, menu = null;
 
+    const refMenu = React.createRef();
+
     function collapse(e, data) {
         if (window.innerWidth < 768) {
-            let menu = document.getElementsByClassName(s.toggle)[0];
             menu.click();
         }
         // console.log('width - ' + window.innerWidth + ' data - ' + data);
@@ -28,7 +28,7 @@ const Navbar = () => {
     }
 
     function setItemsClasses(header, footer, items, page, index) {
-        console.log(index);
+        // console.log(index);
         if (page.includes('home')) {
             header.style = 'border-bottom-right-radius: 25px;';
             items[0].classList.add(s.active);
@@ -49,7 +49,7 @@ const Navbar = () => {
         let index = 0;
         resetAllItemsStyles(header, footer, menu);
         let items = menu.childNodes;
-        console.log('items.length '+items.length);
+        // console.log('items.length '+items.length);
         for (let i = 0; i <= menuUrls.length; i++) {
             if (currentPage.includes(menuUrls[i])) {
                 // console.log(menuUrls[i] + ' include ' + currentPage);
@@ -61,25 +61,27 @@ const Navbar = () => {
     }
 
     function navbarLoaded() {
-        console.log('Navbar Loaded loaded');
+        // console.log('Navbar Loaded loaded');
         const getHeaderFooter = setInterval(function () {
-            header = document.querySelector('#header');
-            footer = document.querySelector('#footer');
-            menu = document.querySelector('#navigation');
+            header = props.headerRef.current;
+            footer = props.footerRef.current;
+            menu = refMenu.current;
             let currentUrl = document.URL;
             if (header != null && footer != null && menu != null) {
                 clearInterval(getHeaderFooter);
                 console.log('find Header Footer Menu');
                 changeStylesOfItem(header, footer, menu, currentUrl);
             }
-        }, 1000);
+        }, 100);
     }
 
+    navbarLoaded();
+
     return (
-        <nav className={s.navigation} onLoad={navbarLoaded()}>
+        <nav className={s.navigation}>
             <input type={`checkbox`} id={s.checkboxMenu}/>
             <label htmlFor={s.checkboxMenu}>
-                <ul id={`navigation`} className={`${s.menu} ${s.touch}`}>
+                <ul ref={refMenu}  className={`${s.menu} ${s.touch}`}>
                     <li><NavLink to={`/`} onClick={((e) => collapse(e, 'home'))} exact
                                  activeClassName={s.active_link}>Продукция</NavLink></li>
                     <li><NavLink to={`/guarantee`} onClick={((e) => collapse(e, 'guarantee'))}

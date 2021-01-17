@@ -6,7 +6,7 @@ const Errors = () => {
     return (
         <section className={s.errors}>
             <h1>Not found :-(</h1>
-            <ComingSoon id={`csErrors`} dateString={`February 08, 2021 13:00:00`}/>
+            <ComingSoon dateString={`February 08, 2021 13:00:00`}/>
         </section>
     )
 };

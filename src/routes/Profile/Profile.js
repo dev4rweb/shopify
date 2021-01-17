@@ -6,7 +6,7 @@ const Profile = () => {
     return (
         <section className={s.profile}>
             <h1>Профайл</h1>
-            <ComingSoon id={`csProfile`} dateString={`Jan 30, 2021 13:00:00`}/>
+            <ComingSoon dateString={`Jan 30, 2021 13:00:00`}/>
         </section>
     )
 };

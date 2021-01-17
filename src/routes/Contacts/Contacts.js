@@ -6,7 +6,7 @@ const Contacts = () => {
     return (
         <section className={s.contacts}>
             <h1>Контакты</h1>
-            <ComingSoon id={`csContacts`} dateString={`Jan 28, 2021 13:00:00`}/>
+            <ComingSoon dateString={`Jan 28, 2021 13:00:00`}/>
         </section>
     )
 };

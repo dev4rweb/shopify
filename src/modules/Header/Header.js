@@ -7,10 +7,11 @@ import basket from './../../assets/img/svg/shopping-basket-grey.svg'
 import Navbar from "./modules/Navbar";
 import {NavLink} from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
+const headerRef = React.createRef();
     return (
         <header className={s.header}>
-            <div className={s.logo} id={`header`}>
+            <div ref={headerRef} className={s.logo}>
                 <div className={s.logo_box}>
                     <img src={logo} alt="logo"/>
                 </div>
@@ -29,7 +30,7 @@ const Header = () => {
                     </NavLink>
                 </div>
             </div>
-            <Navbar/>
+            <Navbar footerRef={props.footerRef} headerRef={headerRef}/>
         </header>
     );
 };
