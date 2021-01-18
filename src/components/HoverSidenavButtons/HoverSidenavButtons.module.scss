@@ -1,0 +1,113 @@
+@import "../../Variables.module";
+
+.sidenav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  &>div{
+    width: 98%;
+  }
+
+  a {
+    font-size: 14px;
+    line-height: 23px;
+    background-color: $bg_color;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 20px 30px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    &:hover{
+      color: $menuTextColor;
+    }
+  }
+
+  .windows{
+    top: 200px;
+    &::before {
+      content: "";
+      background: url("../../assets/img/svg/ic_windows.svg") no-repeat center center;
+      -webkit-background-size: contain;
+      background-size: contain;
+      display: flex;
+      width: 42px;
+      height: 42px;
+      margin-right: 25px;
+    }
+  }
+
+  .adobe{
+    top: 300px;
+    &::before {
+      top: 50px;
+      content: "";
+      background: url("../../assets/img/svg/adobe.svg") no-repeat center center;
+      -webkit-background-size: contain;
+      background-size: contain;
+      display: flex;
+      width: 42px;
+      height: 42px;
+      margin-right: 25px;
+    }
+  }
+
+  .antivirus{
+    top: 400px;
+    &::before {
+      content: "";
+      background: url("../../assets/img/svg/antivirus.svg") no-repeat center center;
+      -webkit-background-size: contain;
+      background-size: contain;
+      display: flex;
+      width: 42px;
+      height: 42px;
+      margin-right: 25px;
+    }
+  }
+
+  .sever{
+    top: 500px;
+    &::before {
+      content: "";
+      background: url("../../assets/img/svg/3d-printing-software.svg") no-repeat center center;
+      -webkit-background-size: contain;
+      background-size: contain;
+      display: flex;
+      width: 42px;
+      height: 42px;
+      margin-right: 25px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sidenav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    a {
+      position: absolute;
+      width: 220px;
+      right: -130px;
+      &:hover{
+        right: -20px;
+        color: $menuTextColor;
+      }
+    }
+  }
+}

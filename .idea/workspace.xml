@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="add id change to ref">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-lang-en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-lang-ru.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SelectBox/SelectBox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SelectBox/SelectBox.js" afterDir="false" />
+    <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/HoverSidenavButtons/HoverSidenavButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HoverSidenavButtons/HoverSidenavButtons.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/VerticalText/VerticalText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/VerticalText/VerticalText.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variables.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SelectBox/SelectBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SelectBox/SelectBox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Aside/Aside.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Aside/Aside.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Aside/Aside.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Aside/Aside.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -140,7 +135,8 @@
       <workItem from="1610813979699" duration="6114000" />
       <workItem from="1610844923001" duration="9687000" />
       <workItem from="1610858477230" duration="9070000" />
-      <workItem from="1610951383195" duration="11083000" />
+      <workItem from="1610951383195" duration="11695000" />
+      <workItem from="1610970258949" duration="10465000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -198,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610854012911</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create language select box">
+      <created>1610964920270</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610964920271</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +232,7 @@
     <MESSAGE value="creating Preloader" />
     <MESSAGE value="add icon to navbar" />
     <MESSAGE value="add id change to ref" />
-    <option name="LAST_COMMIT_MESSAGE" value="add id change to ref" />
+    <MESSAGE value="create language select box" />
+    <option name="LAST_COMMIT_MESSAGE" value="create language select box" />
   </component>
 </project>

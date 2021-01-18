@@ -10,6 +10,7 @@
     border-radius: 19px;
     background-color: #e5edf2;
     border: 1px solid #95a0c2;
+    cursor: pointer;
 }
 
 .select-box--box {
@@ -77,6 +78,7 @@ p.txt-lang[title='English']::before {
     border-right: 1px solid #ddd;
     padding: 6px;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 .select-box--items div.selected {

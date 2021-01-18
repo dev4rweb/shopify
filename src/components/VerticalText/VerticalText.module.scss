@@ -1,0 +1,24 @@
+@import "../../Variables.module";
+
+.text {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+  color: $menuTextColor;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  .text {
+    display: block;
+    position: absolute;
+    right: 15px;
+    margin-left: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+}
