@@ -20,11 +20,11 @@ const Orders = lazy(() => import("./routes/Orders/Orders"));
 function App() {
     /*https://shopify24.ru/*/
     /*https://shopify.dev/concepts/shopify-introduction*/
-    const ref = React.createRef();
+    const footerRef = React.createRef();
 
     return (
         <div className={s.App}>
-            <Header footerRef={ref}/>
+            <Header footerRef={footerRef}/>
             <main>
                 <Suspense fallback={<Preloader/>}>
                     <Switch>
@@ -42,7 +42,7 @@ function App() {
                 </Suspense>
             </main>
             <Aside/>
-            <Footer ref={ref}/>
+            <Footer ref={footerRef}/>
         </div>
     );
 }

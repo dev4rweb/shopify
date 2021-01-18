@@ -1,6 +1,40 @@
 .footer {
+  //display: none;
   .container{
     background-color: white;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .reward{
+      display: none;
+    }
+    .lang{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      &>div{
+        position: relative;
+        margin-right: 123px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    display: block;
+    .container{
+      flex-direction: column;
+      .reward{
+        display: block;
+      }
+      .lang{
+        &>div{
+          position: relative;
+          margin-right: 123px;
+        }
+      }
+    }
   }
 }

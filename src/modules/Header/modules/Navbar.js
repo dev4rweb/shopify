@@ -69,7 +69,7 @@ const Navbar = (props) => {
             let currentUrl = document.URL;
             if (header != null && footer != null && menu != null) {
                 clearInterval(getHeaderFooter);
-                console.log('find Header Footer Menu');
+                // console.log('find Header Footer Menu');
                 changeStylesOfItem(header, footer, menu, currentUrl);
             }
         }, 100);
