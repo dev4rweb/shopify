@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Auth.module.scss';
-import ComingSoon from "../../components/ComingSoon/ComingSoon";
+import ComingSoon from "../../components/libs/ComingSoon/ComingSoon";
 
 const Auth = () => {
     return (

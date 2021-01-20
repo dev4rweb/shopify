@@ -1,3 +1,39 @@
 .main {
+  padding: 10px;
+  .wrapper{
+    max-width: 1300px;
+    .containerInfo{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
+    .promo{
+
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    .wrapper{
+      margin-top: 35px;
+      margin-right: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .main {
+    .wrapper{
+      margin-left: 50px;
+      .containerInfo{
+        justify-content: space-between;
+      }
+
+      .promo{
+        margin-top: 40px;
+      }
+    }
+  }
 }

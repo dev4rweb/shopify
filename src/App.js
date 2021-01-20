@@ -4,7 +4,7 @@ import s from './App.module.scss';
 import Header from "./modules/Header/Header";
 import Aside from "./modules/Aside/Aside";
 import Footer from "./modules/Footer/Footer";
-import Preloader from "./components/Preloader/Preloader";
+import Preloader from "./components/libs/Preloader/Preloader";
 
 const Main = lazy(() => import("./routes/Main/Main"));
 const Guarantee = lazy(() => import("./routes/Guarantee/Guarantee"));

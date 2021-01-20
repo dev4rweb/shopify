@@ -43,12 +43,12 @@ p.txt-lang{
 }
 
 p.txt-lang[title='Russia']::before {
-    content: url("../../assets/img/png/ic-lang-ru.png");
+    content: url("../../../assets/img/png/ic-lang-ru.png");
     margin-right: 13px;
 }
 
 p.txt-lang[title='English']::before {
-    content: url("../../assets/img/png/ic-lang-en.png");
+    content: url("../../../assets/img/png/ic-lang-en.png");
     margin-right: 13px;
 }
 
@@ -70,6 +70,7 @@ p.txt-lang[title='English']::before {
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
+    opacity: .8;
 }
 
 .select-box--items div {

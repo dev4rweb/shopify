@@ -1,0 +1,44 @@
+@import "../../../../Variables.module";
+
+.timer p{
+  display: flex;
+  align-items: center;
+  b, span{
+    height: 45px;
+    width: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif !important;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 2px;
+  }
+  b {
+    color: $timerNumberColor;
+    border: 1px solid white;
+    background-color: $greyColor;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+  span{
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .timer p{
+    justify-content: center;
+    b, span{
+      font-size: 35px;
+      margin-right: 7px;
+    }
+    b {
+    }
+
+    span{
+    }
+  }
+}

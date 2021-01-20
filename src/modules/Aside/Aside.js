@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Aside.module.scss';
-import HoverSidenavButtons from "../../components/HoverSidenavButtons/HoverSidenavButtons";
-import VerticalText from "../../components/VerticalText/VerticalText";
+import HoverSidenavButtons from "../../components/libs/HoverSidenavButtons/HoverSidenavButtons";
+import VerticalText from "../../components/libs/VerticalText/VerticalText";
 
 const Aside = () => {
     return (

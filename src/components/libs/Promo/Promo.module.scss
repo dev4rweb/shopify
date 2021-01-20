@@ -1,0 +1,59 @@
+@import "../../../Variables.module";
+
+.promo {
+  width: 100%;
+  background-image: linear-gradient($angle, $startColor 38%, $endColor 60%);
+  height: 100%;
+  margin-top: 35px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px 2px #000000;
+
+  img {
+    position: absolute;
+    left: 0;
+    top: -30px;
+    max-width: 119px;
+    width: 20vw;
+  }
+
+  h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .promo {
+    img {
+      top: -50px;
+    }
+
+    h3 {
+      margin-top: 50px;
+      z-index: 5;
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .promo {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    img{
+      top: -24px;
+    }
+    h3{
+      margin-top: 26px;
+      margin-right: 15px;
+    }
+  }
+}

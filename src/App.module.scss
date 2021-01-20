@@ -21,6 +21,8 @@ footer {
   text-align: center;
   display: grid;
   grid-template-areas: 'header' 'main' 'side' 'footer';
+  //overflow-x: hidden;
+
 }
 
 @media only screen and (min-width: 768px) {
