@@ -5,6 +5,8 @@ import imgSupport from './../../assets/img/svg/support.svg';
 import imgAutomatic from './../../assets/img/svg/automatic.svg';
 import imgCard from './../../assets/img/svg/credit-card.svg';
 import Promo from "../../components/libs/Promo/Promo";
+import Breadcrumbs from "../../components/libs/menus/Breadcrumbs/Breadcrumbs";
+import Cards from "../../components/libs/ProductCards/Cards";
 
 const Main = () => {
     return (
@@ -19,6 +21,8 @@ const Main = () => {
                               titleHead={`Все виды оплаты`} msg={`онлайн`}/>
                 </div>
                 <Promo dateString={`December 31, 2021 00:00:25`}/>
+                <Breadcrumbs/>
+                <Cards/>
             </div>
         </section>
     )

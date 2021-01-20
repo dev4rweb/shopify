@@ -2,46 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/percent-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/Promo/Promo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/Promo/Promo.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/Promo/Timer/Timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/Promo/Timer/Timer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/main/InfoCard/InfoCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/main/InfoCard/InfoCard.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic_like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Cards.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/menus/Breadcrumbs/Breadcrumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/menus/Breadcrumbs/Breadcrumbs.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Variables.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/png/promo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/png/promo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/automatic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/svg/automatic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/credit-card.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/svg/credit-card.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ComingSoon/ComingSoon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon/ComingSoon.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ComingSoon/ComingSoon.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HoverSidenavButtons/HoverSidenavButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/HoverSidenavButtons/HoverSidenavButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HoverSidenavButtons/HoverSidenavButtons.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/HoverSidenavButtons/HoverSidenavButtons.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Preloader/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/Preloader/Preloader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Preloader/Preloader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/Preloader/Preloader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/Select/Select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/Select/Select.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SelectBox/SelectBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/SelectBox/SelectBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SelectBox/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/SelectBox/SelectBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VerticalText/VerticalText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/VerticalText/VerticalText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VerticalText/VerticalText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/VerticalText/VerticalText.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Aside/Aside.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Aside/Aside.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Errors/Errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Orders/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/Orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Refund/Refund.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,19 +64,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
-      <recent name="D:\OpenServer\domains\shopify\src\components\libs" />
-      <recent name="D:\OpenServer\domains\shopify\src\assets\img\png" />
-      <recent name="D:\OpenServer\domains\shopify\src\temp" />
-      <recent name="D:\OpenServer\domains\shopify\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
       <recent name="D:\OpenServer\domains\shopify\src\assets\img\pages" />
       <recent name="D:\OpenServer\domains\shopify\src\components\Navbar" />
       <recent name="D:\OpenServer\domains\shopify\src" />
       <recent name="D:\OpenServer\domains\shopify\src\temp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\shopify\src\components\libs" />
+      <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
+      <recent name="D:\OpenServer\domains\shopify\src\assets\img\png" />
+      <recent name="D:\OpenServer\domains\shopify\src\temp" />
+      <recent name="D:\OpenServer\domains\shopify\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,7 +147,8 @@
       <workItem from="1611034466927" duration="8401000" />
       <workItem from="1611044416169" duration="4551000" />
       <workItem from="1611065665726" duration="4869000" />
-      <workItem from="1611103497340" duration="9914000" />
+      <workItem from="1611103497340" duration="10288000" />
+      <workItem from="1611120601723" duration="10982000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -244,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610981892500</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="create Promo on Main page">
+      <created>1611114173074</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611114173074</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +260,7 @@
     <MESSAGE value="add id change to ref" />
     <MESSAGE value="create language select box" />
     <MESSAGE value="create Aside" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Aside" />
+    <MESSAGE value="create Promo on Main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Promo on Main page" />
   </component>
 </project>

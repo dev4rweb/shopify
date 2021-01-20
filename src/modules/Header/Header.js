@@ -24,7 +24,7 @@ const headerRef = React.createRef();
                         <p>DesHellArt</p>
                         <NavLink to={`/profile`}>Личный кабинет</NavLink>
                     </div>
-                    <NavLink to={`orders`} className={s.basket}>
+                    <NavLink to={`/orders`} className={s.basket}>
                         <img src={basket} alt="basket"/>
                              <span>5</span>
                     </NavLink>

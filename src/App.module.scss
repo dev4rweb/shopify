@@ -7,6 +7,7 @@ header {
 main {
   grid-area: main;
   background-color: $bg_main;
+  overflow-y: scroll;
 }
 
 aside {

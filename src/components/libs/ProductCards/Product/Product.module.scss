@@ -1,0 +1,121 @@
+@import "../../../../Variables.module";
+
+.product {
+  max-width: 389px;
+  width: 280px;
+  max-height: 553px;
+  background-color: #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  margin-top: 90px;
+  position: relative;
+  -webkit-box-shadow: $boxShadow;
+  -moz-box-shadow: $boxShadow;
+  box-shadow: $boxShadow;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .star {
+    width: 94px;
+    height: 94px;
+    background-color: $bg_main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    left: -22px;
+    top: -22px;
+  }
+
+  .like {
+    position: absolute;
+    top: -17px;
+    right: -17px;
+  }
+
+  .photo {
+    position: relative;
+    max-width: 393px;
+    width: 100%;
+    margin-top: -105px;
+  }
+
+  .info {
+    margin-top: -30px;
+    width: 90%;
+
+    h2 {
+      margin-top: 0;
+      font-weight: bold;
+      color: $menuTextColor;
+    }
+
+    p {
+      font-size: 14px;
+      color: $menuTextColor;
+    }
+
+    .button {
+      display: flex;
+      height: 70px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      margin-bottom: 20px;
+
+      & > div {
+        background-image: linear-gradient($angle, $btnBasketStart 38%, $btnBasketEnd 60%);
+        border-right: 1px solid $btnBasketBorderRight;
+        width: 25%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 36px;
+          height: 30px;
+        }
+      }
+
+      h5 {
+        width: 75%;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 28px;
+        color: white;
+        line-height: 70px;
+        font-weight: 500;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient($angle, $btnPriceStart 38%, $btnPriceEnd 60%);
+      }
+    }
+  }
+
+  &:hover {
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+    -webkit-box-shadow: $boxShadowHover;
+    -moz-box-shadow: $boxShadowHover;
+    box-shadow: $boxShadowHover;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .product {
+    width: 100%;
+  }
+}

@@ -1,0 +1,9 @@
+@import "../../../Variables.module";
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
