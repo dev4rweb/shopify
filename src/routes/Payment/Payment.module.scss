@@ -1,3 +1,60 @@
-.payment {
+@import "../../Variables.module";
 
+.payment {
+  .wrapper {
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto;
+
+    .youGet {
+      font-size: 18px;
+      font-weight: bold;
+      color: $menuTextColor;
+    }
+
+    .cardsWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 33px;
+    }
+    .couponWrapper{
+
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .payment {
+    .wrapper {
+      margin-top: 35px;
+      margin-right: 20px;
+
+      .youGet {
+        text-align: left;
+        padding-left: 50px;
+      }
+      .cardsWrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .couponWrapper{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .payment {
+    .wrapper {
+      margin-left: 50px;
+    }
+  }
 }

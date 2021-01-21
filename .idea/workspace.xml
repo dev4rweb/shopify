@@ -2,49 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft office 2019 professional plus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Captivate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Captivate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud - All Apps 1 Months.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud - All Apps 1 Months.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud - All Apps 12 Months.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud - All Apps 12 Months.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud Photography 20GB 12 Months.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud Photography 20GB 12 Months.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud Photography 20GB 3 Months.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud Photography 20GB 3 Months.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud Photography 20GB 6 Months.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Creative Cloud Photography 20GB 6 Months.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Photoshop Elements.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Photoshop Elements.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Premiere Elements 2020.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Premiere Elements 2020.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Presenter 11.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Adobe/Adobe Presenter 11.1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/AVG TunelUp.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/AVG TunelUp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/AVG internet security.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/AVG internet security.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/AVG vpn.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/AVG vpn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Avast Inernet Security.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Avast Inernet Security.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee antivirus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee antivirus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee internet security.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee internet security.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee livesafe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee livesafe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee total protection.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/McAfee total protection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome advanced.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome advanced.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome complete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome complete.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome essential.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome essential.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome premium.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/Panda dome premium.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton 360 premium.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton 360 premium.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton Spremium.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton Spremium.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton antivirus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton antivirus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton sDeluxe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton sDeluxe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton wifi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Antivirus/norton wifi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Corel/Corel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Corel/Corel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Corel/CorelUltimate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Corel/CorelUltimate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Maya/autodesk.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Maya/autodesk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Vmware/vmware.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Vmware/vmware.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/OC/Microsoft Windows 10 Home.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/OC/Microsoft Windows 10 Home.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/OC/Microsoft Windows 10 Professional.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/OC/Microsoft Windows 10 Professional.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/Microsoft Visio 2019 Professional.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/Microsoft Visio 2019 Professional.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft office 365 Personal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft office 365 Personal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft office Home and Business.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft office Home and Business.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft office Home and Student.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft office Home and Student.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft project 2019 professional.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Office/microsoft project 2019 professional.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 Datacenter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 Datacenter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 Essentials.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 Essentials.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 RDS.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 RDS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 Standard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/products/Windows/Server PO/microsoft server 2019 Standard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/png/coupon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/foms/CouponForm/CouponForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/foms/CouponForm/CouponForm.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/foms/CouponFormik/CouponFormik.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/foms/CouponFormik/CouponFormik.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/Coupon/Coupon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/Coupon/Coupon.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentCard/PaymentCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentCard/PaymentCart.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentMain/PaymentMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentMain/PaymentMain.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variables.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Payment/Payment.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,19 +67,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\shopify\src\components\libs" />
-      <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
-      <recent name="D:\OpenServer\domains\shopify\src\assets\img\png" />
-      <recent name="D:\OpenServer\domains\shopify\src\temp" />
-      <recent name="D:\OpenServer\domains\shopify\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\shopify\src\assets\img\png" />
       <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
       <recent name="D:\OpenServer\domains\shopify\src\assets\img\pages" />
       <recent name="D:\OpenServer\domains\shopify\src\components\Navbar" />
       <recent name="D:\OpenServer\domains\shopify\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\shopify\src\components\libs" />
+      <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
+      <recent name="D:\OpenServer\domains\shopify\src\assets\img\png" />
+      <recent name="D:\OpenServer\domains\shopify\src\temp" />
+      <recent name="D:\OpenServer\domains\shopify\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,7 +152,8 @@
       <workItem from="1611065665726" duration="4869000" />
       <workItem from="1611103497340" duration="10288000" />
       <workItem from="1611120601723" duration="11449000" />
-      <workItem from="1611190115906" duration="6289000" />
+      <workItem from="1611190115906" duration="11554000" />
+      <workItem from="1611210894230" duration="12552000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -270,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611196790738</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Guarantee page finished and update products images">
+      <created>1611197061452</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611197061452</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +289,7 @@
     <MESSAGE value="create Promo on Main page" />
     <MESSAGE value="Main page finished" />
     <MESSAGE value="Guarantee page finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guarantee page finished" />
+    <MESSAGE value="Guarantee page finished and update products images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guarantee page finished and update products images" />
   </component>
 </project>

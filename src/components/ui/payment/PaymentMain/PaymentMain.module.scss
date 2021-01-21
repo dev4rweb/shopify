@@ -1,0 +1,50 @@
+@import "../../../../Variables.module";
+
+.paymentMain{
+  width: 100%;
+  background-color: #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: $boxShadow;
+  margin-top: 77px;
+  margin-bottom: 50px;
+  position: relative;
+
+  p{
+    font-size: 18px;
+    color: $menuTextColor;
+    text-align: left;
+    padding-top: 200px;
+  }
+
+  img{
+    position: absolute;
+    right: 20%;
+    top: -50px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .paymentMain{
+    p{
+      padding-top: 158px;
+    }
+    img{
+      right: 40%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .paymentMain{
+    p{
+      padding-top: 0;
+      padding-right: 200px;
+    }
+    img{
+      right: 0;
+    }
+  }
+}
