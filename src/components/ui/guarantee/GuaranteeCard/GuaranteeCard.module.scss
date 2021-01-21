@@ -1,0 +1,42 @@
+@import "../../../../Variables.module";
+
+.guaranteeCard {
+  width: 100%;
+  max-width: 420px;
+  min-height: 212px;
+  background-color: #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  box-shadow: $boxShadow;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+
+  img {
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    h4 {
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    p {
+      margin-top: 0;
+      font-size: 14px;
+      color: $menuTextColor;
+      text-transform: uppercase;
+      text-align: left;
+    }
+  }
+}

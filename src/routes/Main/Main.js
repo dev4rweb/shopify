@@ -21,7 +21,7 @@ const Main = () => {
                               titleHead={`Все виды оплаты`} msg={`онлайн`}/>
                 </div>
                 <Promo dateString={`December 31, 2021 00:00:25`}/>
-                <Breadcrumbs/>
+                <Breadcrumbs title={`Ключи Windows 10 PRO`}/>
                 <Cards/>
             </div>
         </section>

@@ -1,3 +1,54 @@
 .guarantee {
+  .wrapper {
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto;
+    .containerInfo{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .guaranteeWrapper{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+}
 
+
+@media only screen and (min-width: 768px) {
+  .guarantee {
+    .wrapper{
+      margin-top: 35px;
+      margin-right: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .guarantee {
+    .wrapper {
+      .guaranteeWrapper {
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1600px) {
+  .guarantee {
+    .wrapper{
+      margin-left: 50px;
+      .containerInfo{
+        justify-content: space-between;
+      }
+
+      .promo{
+        margin-top: 40px;
+      }
+    }
+  }
 }
