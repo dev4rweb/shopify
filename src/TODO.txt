@@ -8,6 +8,7 @@ http://localhost:3000/news
 2. add routes, sass library
     npm install react-router-dom
     npm install node-sass@4.14.1
+    yarn add formik
 3. /src/index.js wrap   in
 <BrowserRouter>
     <App />

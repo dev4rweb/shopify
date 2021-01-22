@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/coupon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/foms/CouponForm/CouponForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/foms/CouponForm/CouponForm.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/foms/CouponFormik/CouponFormik.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/foms/CouponFormik/CouponFormik.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/Coupon/Coupon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/Coupon/Coupon.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentCard/PaymentCart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentCard/PaymentCart.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentMain/PaymentMain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentMain/PaymentMain.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/GradientButton/GradientButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/GradientButton/GradientButton.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/refund/RefundFormik/RefundFormik.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/refund/RefundFormik/RefundFormik.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variables.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Payment/Payment.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TODO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/foms/CouponFormik/CouponFormik.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/foms/CouponFormik/CouponFormik.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/payment/Coupon/Coupon.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/payment/Coupon/Coupon.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Refund/Refund.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Refund/Refund.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.module.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +147,8 @@
       <workItem from="1611103497340" duration="10288000" />
       <workItem from="1611120601723" duration="11449000" />
       <workItem from="1611190115906" duration="11554000" />
-      <workItem from="1611210894230" duration="12552000" />
+      <workItem from="1611210894230" duration="13038000" />
+      <workItem from="1611276311391" duration="9563000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -253,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611197061452</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Payment page finished">
+      <created>1611223542778</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611223542778</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +292,7 @@
     <MESSAGE value="Main page finished" />
     <MESSAGE value="Guarantee page finished" />
     <MESSAGE value="Guarantee page finished and update products images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guarantee page finished and update products images" />
+    <MESSAGE value="Payment page finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Payment page finished" />
   </component>
 </project>

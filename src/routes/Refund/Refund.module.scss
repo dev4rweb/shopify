@@ -1,3 +1,78 @@
-.refund{
+@import "../../Variables.module";
 
+.refund {
+  .wrapper {
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto;
+
+    & > p {
+      padding-left: 15px;
+    }
+
+    p {
+      font-size: 18px;
+      color: $menuTextColor;
+      text-align: left;
+    }
+
+    .imgContainer {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      margin-bottom: 50px;
+      margin-top: 50px;
+      padding: 30px;
+      background-color: #fff;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      box-shadow: $boxShadow;
+
+      img {
+        position: relative;
+        width: 100%;
+        margin-bottom: -100px;
+      }
+    }
+
+    .content {
+      margin-bottom: 50px;
+      padding: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      background-color: #fff;
+      box-shadow: $boxShadow;
+    }
+  }
+}
+
+@media only screen and (min-width: 1376px) {
+  .refund {
+    .wrapper {
+      .imgContainer{
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        p{
+          margin-right: 340px;
+        }
+        img{
+          position: absolute;
+          width: 397px;
+          bottom: 50px;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .refund {
+    .wrapper {
+      margin-left: 50px;
+    }
+  }
 }
