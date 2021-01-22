@@ -1,3 +1,70 @@
-.about {
+@import "../../Variables.module";
 
+.about {
+  .wrapper {
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto;
+    .imgWrapper{
+      img{
+        width: 100%;
+      }
+    }
+    p{
+      margin-bottom: 50px;
+      padding: 30px;
+      background-color: #fff;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      box-shadow: $boxShadow;
+      text-align: left;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about {
+    .wrapper {
+      margin-top: 100px;
+      margin-left: 20px;
+      width: 77%;
+      .imgWrapper {
+        img{
+          width: 70%;
+          margin-top: -34px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .about {
+    .wrapper {
+      width: 86%;
+    }}
+}
+
+@media only screen and (min-width: 1376px) {
+  .about {
+    .wrapper {
+      width: 90%;
+      .imgWrapper {
+        img{
+          width: 731px;
+          margin-top: -100px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .about {
+    .wrapper {
+      width: 100%;
+      margin-left: 50px;
+    }
+  }
 }
