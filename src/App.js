@@ -20,6 +20,7 @@ const Orders = lazy(() => import("./routes/Orders/Orders"));
 function App() {
     /*https://shopify24.ru/*/
     /*https://shopify.dev/concepts/shopify-introduction*/
+    /*https://youtu.be/b5qHbsSNmHM?t=3930*/
     const footerRef = React.createRef();
 
     return (

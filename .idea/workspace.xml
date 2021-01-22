@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/libs/buttons/SocialButton/SocialButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/buttons/SocialButton/SocialButton.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/GradientButton/GradientButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/GradientButton/GradientButton.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/About/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About/About.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Refund/Refund.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/temp/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/temp/logo.svg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +145,7 @@
       <workItem from="1611190115906" duration="11554000" />
       <workItem from="1611210894230" duration="13038000" />
       <workItem from="1611276311391" duration="10018000" />
-      <workItem from="1611297551368" duration="4180000" />
+      <workItem from="1611297551368" duration="11032000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611287665706</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="About page finished">
+      <created>1611302179185</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611302179185</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +305,7 @@
     <MESSAGE value="Guarantee page finished and update products images" />
     <MESSAGE value="Payment page finished" />
     <MESSAGE value="Refund page finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refund page finished" />
+    <MESSAGE value="About page finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="About page finished" />
   </component>
 </project>

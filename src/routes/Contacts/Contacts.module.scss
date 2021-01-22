@@ -1,3 +1,78 @@
-.contacts {
+@import "../../Variables.module";
 
+.contacts {
+  .wrapper {
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto;
+    .socialWrapper{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 30px;
+      background-color: #fff;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      box-shadow: $boxShadow;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .contactContainer{
+      .support{
+
+      }
+      button {
+
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contacts {
+    .wrapper {
+      margin-top: 100px;
+      margin-left: 20px;
+      width: 77%;
+      .socialWrapper{
+        display: grid;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .contacts {
+    .wrapper {
+      width: 86%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1376px) {
+  .contacts {
+    .wrapper {
+      width: 90%;
+      .socialWrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .contacts {
+    .wrapper {
+      width: auto;
+      margin-left: 50px;
+      margin-right: 70px;
+      .socialWrapper{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 10px;
+      }
+    }
+  }
 }
