@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './About.module.scss';
-import ComingSoon from "../../components/libs/ComingSoon/ComingSoon";
 import Breadcrumbs from "../../components/libs/menus/Breadcrumbs/Breadcrumbs";
 import image from "../../assets/img/png/about-page.png";
 import GradientButton from "../../components/ui/GradientButton/GradientButton";
@@ -8,8 +7,6 @@ import GradientButton from "../../components/ui/GradientButton/GradientButton";
 const About = () => {
     return (
         <section className={s.about}>
-            {/*<h1>О компании</h1>
-            <ComingSoon dateString={`Jan 26, 2021 13:00:00`}/>*/}
             <div className={s.wrapper}>
                 <Breadcrumbs title={`Немного о нас`}/>
                 <div className={s.imgWrapper}>

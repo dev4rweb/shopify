@@ -1,0 +1,134 @@
+@import "../../../../Variables.module";
+
+.contactFormik {
+  padding: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  box-shadow: $boxShadow;
+  background-color: #fff;
+  margin-bottom: 50px;
+  margin-top: 90px;
+
+  input, textarea {
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    border-radius: 41px;
+    color: $menuTextColor;
+
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: $menuTextColor;
+      opacity: 1; /* Firefox */
+    }
+
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: $menuTextColor;
+    }
+
+    &::-ms-input-placeholder { /* Microsoft Edge */
+      color: $menuTextColor;
+    }
+  }
+
+  .textarea {
+    min-height: 300px;
+    resize: none;
+  }
+
+  .login {
+
+  }
+
+  .email{}
+
+  .textarea{}
+
+  .agreementBox {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .checkbox{}
+
+    .agree{
+      font-size: 18px;
+      line-height: 20px;
+      text-decoration: underline;}
+  }
+
+  .button{}
+}
+
+@media only screen and (min-width: 600px) {
+  .contactFormik {
+    .agreementBox {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+
+      .agree{
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contactFormik {
+    .agreementBox {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .contactFormik {
+    .agreementBox {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1376px) {
+  .contactFormik form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    justify-items: start;
+    align-items: start;
+    grid-gap: 20px;
+
+    .login {
+      margin-bottom: 0;
+    }
+
+    .email{
+      margin-bottom: 0;
+    }
+
+    .textarea{
+      margin-bottom: 0;
+      grid-column: 2/3;
+      grid-row: 1/5;
+      height: 100%;
+    }
+
+    .agreementBox {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0;
+    }
+
+    .button{}
+  }
+}

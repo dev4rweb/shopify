@@ -38,6 +38,11 @@ a {
   }
 }
 
+p {
+  font-size: 18px;
+  color: $menuTextColor;
+}
+
 /* Define mixin with one arguments */
 @mixin iconMenu($url: "assets/img/svg/key.svg") {
   display: inline-block;

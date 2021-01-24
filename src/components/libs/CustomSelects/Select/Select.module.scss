@@ -1,4 +1,4 @@
-@import "../../../Variables.module";
+@import "../../../../Variables.module";
 .select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -25,7 +25,7 @@
     font-weight: 500;
 
     &:first-child::before {
-      content: url("../../../assets/img/png/ic-lang-ru.png");
+      content: url("../../../../assets/img/png/ic-lang-ru.png");
       margin-right: 13px;
       margin-top: 6px;
     }
@@ -34,7 +34,7 @@
       display: none;
 
       &::before {
-        content: url("../../../assets/img/png/ic-lang-en.png");
+        content: url("../../../../assets/img/png/ic-lang-en.png");
       }
     }
   }

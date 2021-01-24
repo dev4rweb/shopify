@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Footer.module.scss'
 import image from './../../assets/img/png/reward.png'
-import SelectBox from "../../components/libs/SelectBox/SelectBox";
+import SelectBox from "../../components/libs/CustomSelects/SelectBox/SelectBox";
 
 const Footer = React.forwardRef((props, ref) => (
     <footer className={s.footer}>

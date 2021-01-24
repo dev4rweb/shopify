@@ -43,12 +43,12 @@ p.txt-lang{
 }
 
 p.txt-lang[title='Russia']::before {
-    content: url("../../../assets/img/png/ic-lang-ru.png");
+    content: url("../../../../assets/img/png/ic-lang-ru.png");
     margin-right: 13px;
 }
 
 p.txt-lang[title='English']::before {
-    content: url("../../../assets/img/png/ic-lang-en.png");
+    content: url("../../../../assets/img/png/ic-lang-en.png");
     margin-right: 13px;
 }
 

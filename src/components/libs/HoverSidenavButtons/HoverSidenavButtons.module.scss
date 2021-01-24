@@ -9,7 +9,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 
-  &>div{
+  .item {
     width: 98%;
   }
 
@@ -51,7 +51,7 @@
   }
 
   .adobe{
-    top: 300px;
+    top: 310px;
     &::before {
       top: 50px;
       content: "";
@@ -66,7 +66,7 @@
   }
 
   .antivirus{
-    top: 400px;
+    top: 420px;
     &::before {
       content: "";
       background: url("../../../assets/img/svg/antivirus.svg") no-repeat center center;
@@ -80,7 +80,7 @@
   }
 
   .sever{
-    top: 500px;
+    top: 530px;
     &::before {
       content: "";
       background: url("../../../assets/img/svg/3d-printing-software.svg") no-repeat center center;

@@ -1,0 +1,60 @@
+@import "../../../../Variables.module";
+
+.formikCheckbox {
+  width: 100%;
+  max-width: 269px;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  border-radius: 41px;
+  border: 1px solid $formInputBorder;
+  background-color: $bg_main;
+  padding: 2px;
+  font-size: 18px;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 30px;
+
+
+
+  .hidden{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    height: 100%;
+    opacity: 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .formikCheckbox {
+    margin-bottom: 0;
+
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .formikCheckbox {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .formikCheckbox {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1376px) {
+  .formikCheckbox{
+    /*margin-bottom: 20px;*/
+
+  }
+}
