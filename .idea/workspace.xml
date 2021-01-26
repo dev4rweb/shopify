@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="Contact page start">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/ic-checkbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/CusttomCheckboxes/FormikCheckbox/FormikCheckbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/CusttomCheckboxes/FormikCheckbox/FormikCheckbox.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/CusttomCheckboxes/ReactCheckbox/ReactCheckbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/libs/CusttomCheckboxes/ReactCheckbox/ReactCheckbox.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/contacts/ContactFormik/ContactFormik.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/contacts/ContactFormik/ContactFormik.module.scss" afterDir="false" />
+    <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/routes/Auth/AuthFormik/AuthFormik.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Auth/AuthFormik/AuthFormik.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Auth/RegisterFormik/RegisterFormik.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Auth/RegisterFormik/RegisterFormik.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variables.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/HoverSidenavButtons/HoverSidenavButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/HoverSidenavButtons/HoverSidenavButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/HoverSidenavButtons/HoverSidenavButtons.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/HoverSidenavButtons/HoverSidenavButtons.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/Select/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/CustomSelects/Select/Select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/Select/Select.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/CustomSelects/Select/Select.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/SelectBox/SelectBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/CustomSelects/SelectBox/SelectBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/SelectBox/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/CustomSelects/SelectBox/SelectBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Auth/Auth.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +150,9 @@
       <workItem from="1611377393589" duration="8186000" />
       <workItem from="1611398628430" duration="7344000" />
       <workItem from="1611450523314" duration="9834000" />
-      <workItem from="1611471191138" duration="2999000" />
+      <workItem from="1611471191138" duration="3690000" />
+      <workItem from="1611551945066" duration="2873000" />
+      <workItem from="1611624281946" duration="6794000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -291,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611309194386</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Contact page created">
+      <created>1611474304278</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611474304278</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +328,7 @@
     <MESSAGE value="Refund page finished" />
     <MESSAGE value="About page finished" />
     <MESSAGE value="Contact page start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact page start" />
+    <MESSAGE value="Contact page created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact page created" />
   </component>
 </project>

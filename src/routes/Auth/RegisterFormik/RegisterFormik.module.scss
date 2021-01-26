@@ -1,0 +1,115 @@
+@import "../../../Variables.module";
+
+.registerFormik {
+  padding: 30px;
+  max-width: 585px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  box-shadow: $boxShadow;
+  background-color: #fff;
+  margin-bottom: 50px;
+
+  input {
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    border-radius: 41px;
+    color: $menuTextColor;
+
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: $menuTextColor;
+      opacity: 1; /* Firefox */
+    }
+
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: $menuTextColor;
+    }
+
+    &::-ms-input-placeholder { /* Microsoft Edge */
+      color: $menuTextColor;
+    }
+  }
+
+
+  .login {
+
+  }
+
+  .email {
+  }
+
+  .password {
+
+  }
+
+  .agreementBox {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .checkbox {
+    }
+
+    .agree {
+      font-size: 18px;
+      line-height: 20px;
+      text-decoration: underline;
+    }
+  }
+
+  .button {
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .registerFormik{
+    .agreementBox {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+
+      .agree {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .registerFormik{
+    .agreementBox {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+
+      .agree {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .registerFormik{
+    .agreementBox {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .registerFormik{
+    .agreementBox {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  }
+}

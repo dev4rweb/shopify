@@ -8,7 +8,6 @@ import iconWhatsApp from '../../assets/img/svg/whatsapp-brands.svg';
 import ContactFormik from "../../components/ui/contacts/ContactFormik/ContactFormik";
 
 const Contacts = () => {
-    /*https://youtu.be/b5qHbsSNmHM?t=6726*/
     return (
         <section className={s.contacts}>
             <div className={s.wrapper}>
