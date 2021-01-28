@@ -20,7 +20,7 @@ class Promo extends React.Component {
         )
     }
 
-    componentWillMount() {
+    componentWillUnmount() {
         clearInterval(this.timerId);
     }
 

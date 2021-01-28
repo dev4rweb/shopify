@@ -23,6 +23,7 @@ const Main = () => {
                 <Promo dateString={`December 31, 2021 00:00:25`}/>
                 <Breadcrumbs title={`Ключи Windows 10 PRO`}/>
                 <Cards/>
+
             </div>
         </section>
     )

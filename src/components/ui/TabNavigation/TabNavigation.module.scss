@@ -1,0 +1,67 @@
+@import "../../../Variables.module";
+
+.tabNavigation {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: #fff;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  box-shadow: $boxShadow;
+  color: $menuTextColor;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+
+
+  .tabItems{
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    padding: 25px;
+    width: 100%;
+    background-color: #fff;
+    margin: 12px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+
+    &:hover{
+      box-shadow: $boxShadow;
+    }
+  }
+  .active {
+    box-shadow: $boxShadow;
+  }
+
+  img{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .tabNavigation{
+    .tabItems{
+      max-width: 250px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1270px) {
+  .tabNavigation {
+    img{
+      display: block;
+    }
+  }
+}

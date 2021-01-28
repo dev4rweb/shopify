@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/Auth/AuthFormik/AuthFormik.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Auth/AuthFormik/AuthFormik.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Auth/RegisterFormik/RegisterFormik.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Auth/RegisterFormik/RegisterFormik.module.scss" afterDir="false" />
+    <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="Auth page created">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/png/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/TabNavigation/TabNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/TabNavigation/TabNavigation.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileCard/ProfileCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileCard/ProfileCard.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderItem/ProfileOrderItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderItem/ProfileOrderItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrders.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Auth/Auth.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/svg/delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/svg/settings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/Promo/Promo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/Promo/Promo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/About/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About/About.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Orders/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/Orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Orders/Orders.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/Orders.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Profile/Profile.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.module.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +165,11 @@
       <workItem from="1611450523314" duration="9834000" />
       <workItem from="1611471191138" duration="3690000" />
       <workItem from="1611551945066" duration="2873000" />
-      <workItem from="1611624281946" duration="6794000" />
+      <workItem from="1611624281946" duration="7342000" />
+      <workItem from="1611676146154" duration="9044000" />
+      <workItem from="1611751192596" duration="8584000" />
+      <workItem from="1611803770867" duration="2712000" />
+      <workItem from="1611815584756" duration="5588000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -287,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611474304278</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Auth page created">
+      <created>1611631735526</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1611631735526</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +353,7 @@
     <MESSAGE value="About page finished" />
     <MESSAGE value="Contact page start" />
     <MESSAGE value="Contact page created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact page created" />
+    <MESSAGE value="Auth page created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth page created" />
   </component>
 </project>

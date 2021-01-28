@@ -1,0 +1,62 @@
+@import "../../../../../Variables.module";
+
+.profileOrderItem {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding: 25px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 18px -6px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 3px 5px 18px -6px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 3px 5px 18px -6px rgba(0, 0, 0, .8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  .productName {
+    font-size: 12px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .priceWrapper {
+    display: flex;
+    align-items: center;
+
+    .price {
+      margin-left: 5px;
+      margin-right: 5px;
+      justify-self: flex-end;
+    }
+
+    .dotCheck {
+      width: 27px;
+      height: 27px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background-color: $menuTextColor;
+    }
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .profileOrderItem {
+    font-size: 17px;
+    font-weight: bold;
+
+    .productName {
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .priceWrapper {
+      .price {
+        margin-right: 15px;
+      }
+    }
+  }
+}

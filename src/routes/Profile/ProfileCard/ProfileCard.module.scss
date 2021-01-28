@@ -1,0 +1,112 @@
+@import "../../../Variables.module";
+
+.profileCard{
+  margin: 50px auto;
+  background-color: #fff;
+  -webkit-border-radius: 49px;
+  -moz-border-radius: 49px;
+  border-radius: 49px;
+  box-shadow: $boxShadow;
+  color: $menuTextColor;
+  padding: 25px;
+  width: 100%;
+  max-width: 642px;
+  display: flex;
+  flex-direction: column;
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 226px;
+    }
+    .userInfo{
+      h6 {
+        font-weight: bold;
+        font-size: 18px;
+      }
+      p{
+        font-weight: 300;
+      }
+    }
+  }
+
+  .btnWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button {
+      width: 100%;
+      max-width: 272px;
+      padding: 25px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      border: none;
+      margin: 7px;
+      background-color: $bg_main;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      color: $menuTextColor;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s;
+      outline: none;
+
+      &:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.05, 1.05);
+        -moz-transform: scale(1.05, 1.05);
+        -ms-transform: scale(1.05, 1.05);
+        -o-transform: scale(1.05, 1.05);
+        transform: scale(1.05, 1.05);
+        color: $blueText;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .profileCard{
+    .info, .btnWrapper{
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .info {
+      .userInfo{
+        h6, p{
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profileCard{
+    .info, .btnWrapper{
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .profileCard{
+    .info, .btnWrapper{
+      flex-direction: row;
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .profileCard{
+    margin: 0;
+    width: 47%;
+  }
+}

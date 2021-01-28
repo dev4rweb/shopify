@@ -1,0 +1,167 @@
+@import "../../../Variables.module";
+
+.profileOrders {
+  margin: 0 auto 50px;
+  background-color: #fff;
+  -webkit-border-radius: 37px;
+  -moz-border-radius: 37px;
+  border-radius: 37px;
+  box-shadow: $boxShadow;
+  color: $menuTextColor;
+  padding: 15px;
+  width: 100%;
+  max-width: 618px;
+  display: flex;
+  flex-direction: column;
+
+  .header {
+    margin: 0 15px 20px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
+    text-align: left;
+
+    &::before {
+      content: '';
+      display: block;
+      background: url("../../../assets/img/svg/shopping-basket-grey.svg") no-repeat;
+      background-size: 60px 52px;
+      width: 60px;
+      height: 52px;
+      margin-right: 20px;
+    }
+
+    img {
+      content: '';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 14px;
+      background: url("../../../assets/img/svg/delete.svg") no-repeat;
+      background-size: 21px 25px;
+      width: 21px;
+      height: 25px;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s;
+
+      &:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.2, 1.2);
+        -moz-transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+        -o-transform: scale(1.2, 1.2);
+        transform: scale(1.2, 1.2);
+      }
+    }
+  }
+
+  .orders {
+
+  }
+
+  .footer {
+    margin-top: 20px;
+
+    .sumWrapper {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      .btnGradient {
+        width: 100%;
+        max-width: 287px;
+        background-image: linear-gradient(360deg, #ba00ff 50%, #6062ff 100%);
+        border: none;
+        outline: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: bold;
+        padding: 30px;
+        font-family: 'Montserrat', sans-serif;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        &:hover{
+          cursor: pointer;
+          -webkit-transform: scale(1.05, 1.05);
+          -moz-transform: scale(1.05, 1.05);
+          -ms-transform: scale(1.05, 1.05);
+          -o-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+          box-shadow: $boxShadow;
+          background-image: linear-gradient(360deg, #ba00ff 10%, #6062ff 100%);
+        }
+      }
+      .sum{
+        font-size: 43px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-decoration: underline;
+      }
+    }
+    .promo {
+      text-decoration: underline;
+      font-size: 17px;
+      font-weight: bold;
+    }
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  .profileOrders{
+    .footer {
+      .sumWrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        .sum {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profileOrders{
+    .footer {
+      .sumWrapper {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        .sum {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .profileOrders{
+    .footer {
+      .sumWrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        .sum {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .profileOrders {
+    margin: 0;
+    width: 47%;
+  }
+}
