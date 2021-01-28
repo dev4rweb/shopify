@@ -8,6 +8,7 @@ import imgCard from "../../assets/img/svg/credit-card.svg";
 import Promo from "../../components/libs/Promo/Promo";
 import Breadcrumbs from "../../components/libs/menus/Breadcrumbs/Breadcrumbs";
 import TabNavigation from "../../components/ui/TabNavigation/TabNavigation";
+import OrdersTable from "./OrdersTable/OrdersTable";
 
 const Orders = () => {
     return (
@@ -24,6 +25,9 @@ const Orders = () => {
                 <Promo dateString={`December 31, 2021 00:00:25`}/>
                 <Breadcrumbs title={`Личный кабинет`}/>
                 <TabNavigation page={`orders`}/>
+                <div className={s.table}>
+                    <OrdersTable/>
+                </div>
             </div>
         </section>
     )

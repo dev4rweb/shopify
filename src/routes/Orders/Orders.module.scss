@@ -1,4 +1,5 @@
 .orders {
+  overflow-x: hidden;
   .wrapper {
     max-width: 1300px;
     width: 95%;
@@ -7,6 +8,9 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+    }
+    .table{
+      overflow-x: auto;
     }
   }
 }

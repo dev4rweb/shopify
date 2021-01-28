@@ -1,0 +1,31 @@
+@import "../../../Variables.module";
+
+.ordersTable {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 18px;
+  color: $menuTextColor;
+  width: 100%;
+  margin-bottom: 50px;
+  .header{
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+
+    th:first-child{
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    th:last-child{
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    th{
+      padding: 30px;
+    }
+  }
+}

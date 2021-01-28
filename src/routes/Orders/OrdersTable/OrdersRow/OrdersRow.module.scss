@@ -1,0 +1,9 @@
+@import "../../../../Variables.module";
+
+.ordersRow {
+  border-bottom: 1px solid $menuTextColor;
+  td{
+    padding: 30px;
+    text-align: left;
+  }
+}

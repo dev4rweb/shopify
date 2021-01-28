@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="Auth page created">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/png/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/TabNavigation/TabNavigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/TabNavigation/TabNavigation.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileCard/ProfileCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileCard/ProfileCard.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderItem/ProfileOrderItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderItem/ProfileOrderItem.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrders.module.scss" afterDir="false" />
+    <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersRow/OrdersRow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersRow/OrdersRow.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersTable.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/svg/delete.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/svg/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/svg/settings.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/Promo/Promo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/Promo/Promo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/About/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About/About.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Errors/Errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Errors/Errors.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Orders/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/Orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Orders/Orders.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/Orders.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Profile/Profile.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.module.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,19 +59,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\shopify\src\routes\Orders\OrdersTable" />
+      <recent name="D:\OpenServer\domains\shopify\src\components\libs\CustomSelects" />
+      <recent name="D:\OpenServer\domains\shopify\src\components\libs" />
+      <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
+      <recent name="D:\OpenServer\domains\shopify\src\assets\img\png" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\shopify\src\assets\img\png" />
       <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
       <recent name="D:\OpenServer\domains\shopify\src\assets\img\pages" />
       <recent name="D:\OpenServer\domains\shopify\src\components\Navbar" />
       <recent name="D:\OpenServer\domains\shopify\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\shopify\src\components\libs\CustomSelects" />
-      <recent name="D:\OpenServer\domains\shopify\src\components\libs" />
-      <recent name="D:\OpenServer\domains\shopify\src\assets\img\svg" />
-      <recent name="D:\OpenServer\domains\shopify\src\assets\img\png" />
-      <recent name="D:\OpenServer\domains\shopify\src\temp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -169,7 +157,7 @@
       <workItem from="1611676146154" duration="9044000" />
       <workItem from="1611751192596" duration="8584000" />
       <workItem from="1611803770867" duration="2712000" />
-      <workItem from="1611815584756" duration="5588000" />
+      <workItem from="1611815584756" duration="13502000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -311,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611631735526</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Profile page created">
+      <created>1611821878443</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611821878443</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +349,7 @@
     <MESSAGE value="Contact page start" />
     <MESSAGE value="Contact page created" />
     <MESSAGE value="Auth page created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth page created" />
+    <MESSAGE value="Profile page created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Profile page created" />
   </component>
 </project>
