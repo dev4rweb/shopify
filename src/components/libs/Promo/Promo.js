@@ -9,7 +9,8 @@ class Promo extends React.Component {
         this.countDownDate = new Date(props.dateString).getTime();
         this.state = {
             date: new Date().getTime(),
-            distance: this.countDownDate - new Date().getTime()
+            distance: this.countDownDate - new Date().getTime(),
+
         }
     }
 
@@ -34,6 +35,7 @@ class Promo extends React.Component {
 
     render() {
         let timer;
+        let content = this.props.content || 'Купить лицензионные ключи с огромной скидкой';
         if (this.state.distance < 0) {
             timer = <div>Promo has been finished</div>
         } else {
@@ -42,7 +44,7 @@ class Promo extends React.Component {
         return (
             <div className={s.promo}>
                 <img src={img} alt="arrow"/>
-                <h3>Купить лицензионные ключи с огромной скидкой</h3>
+                <h3>{content}</h3>
                 <div>{timer}</div>
             </div>
         );

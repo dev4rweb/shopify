@@ -75,6 +75,16 @@ const Navbar = (props) => {
         }, 100);
     }
 
+    const data = props.data;
+    const lang = props.lang;
+
+    let product = data.product[lang] || 'Продукция';
+    let guarantee = data.guarantee[lang] || 'Гарантия';
+    let payment = data.payment[lang] || 'Оплата и доставка';
+    let refund = data.refund[lang] || 'Обмен и возврат';
+    let about = data.about[lang] || 'О компании';
+    let contacts = data.contacts[lang] || 'Контакты';
+
     navbarLoaded();
 
     return (
@@ -82,18 +92,47 @@ const Navbar = (props) => {
             <input type={`checkbox`} id={s.checkboxMenu}/>
             <label htmlFor={s.checkboxMenu}>
                 <ul ref={refMenu}  className={`${s.menu} ${s.touch}`}>
-                    <li><NavLink to={`/`} onClick={((e) => collapse(e, 'home'))} exact
-                                 activeClassName={s.active_link}>Продукция</NavLink></li>
-                    <li><NavLink to={`/guarantee`} onClick={((e) => collapse(e, 'guarantee'))}
-                                 activeClassName={s.active_link}>Гарантия</NavLink></li>
-                    <li><NavLink to={`/payment`} onClick={((e) => collapse(e, 'payment'))}
-                                 activeClassName={s.active_link}>Оплата и доставка</NavLink></li>
-                    <li><NavLink to={`/refund`} onClick={((e) => collapse(e, 'refund'))}
-                                 activeClassName={s.active_link}>Обмен и возврат</NavLink></li>
-                    <li><NavLink to={`/about`} onClick={((e) => collapse(e, 'about'))} activeClassName={s.active_link}>О
-                        компании</NavLink></li>
-                    <li><NavLink to={`/contacts`} onClick={((e) => collapse(e, 'contacts'))}
-                                 activeClassName={s.active_link}>Контакты</NavLink></li>
+                    <li>
+                        <NavLink to={`/`} onClick={((e) => collapse(e, 'home'))}
+                                 exact
+                                 activeClassName={s.active_link}>
+                            {product}
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={`/guarantee`}
+                                 onClick={((e) => collapse(e, 'guarantee'))}
+                                 activeClassName={s.active_link}>
+                            {guarantee}
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={`/payment`}
+                                 onClick={((e) => collapse(e, 'payment'))}
+                                 activeClassName={s.active_link}>
+                            {payment}
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={`/refund`} onClick={((e) => collapse(e, 'refund'))}
+                                 activeClassName={s.active_link}>
+                            {refund}
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={`/about`}
+                                 onClick={((e) => collapse(e, 'about'))}
+                                 activeClassName={s.active_link}>
+                        {about}
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={`/contacts`}
+                                 onClick={((e) => collapse(e, 'contacts'))}
+                                 activeClassName={s.active_link}>
+                            {contacts}
+                        </NavLink>
+                    </li>
                 </ul>
                 <span className={s.toggle}>☰</span>
             </label>

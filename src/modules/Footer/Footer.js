@@ -3,7 +3,9 @@ import s from './Footer.module.scss'
 import image from './../../assets/img/png/reward.png'
 import SelectBox from "../../components/libs/CustomSelects/SelectBox/SelectBox";
 
+
 const Footer = React.forwardRef((props, ref) => (
+
     <footer className={s.footer}>
         <div ref={ref} className={s.container}>
             <img className={s.reward} src={image} alt="reward"/>
@@ -14,6 +16,7 @@ const Footer = React.forwardRef((props, ref) => (
                         { value: 'Russia', id: 1 },
                         { value: 'English', id: 2 },
                     ]}
+                    changeLanguage={props.changeLanguage}
                 />
             </div>
         </div>

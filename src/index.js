@@ -4,11 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
+import Client from 'shopify-buy';
+
+/*https://github.com/Shopify/js-buy-sdk*/
+/*yarn add shopify-buy*/
+const client = Client.buildClient({
+    storefrontAccessToken: 'bd14e50edce31aa6b246e2daf334ef2a',
+    domain: 'testsoftkey.myshopify.com'
+});
 
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
-          <App />
+          <App client={client} />
       </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

@@ -19,7 +19,10 @@ class SelectBox extends React.Component {
         this.setState({
             selectedItem: item,
             showItems: false,
+
         })
+        let lang = item.id === 1 ? 'ru' : 'en';
+        this.props.changeLanguage(lang);
     };
 
     render () {

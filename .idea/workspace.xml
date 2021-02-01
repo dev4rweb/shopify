@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersRow/OrdersRow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersRow/OrdersRow.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersTable.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/Data/ContextData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/Data/ReducerData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/Data/StateData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Errors/Errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Errors/Errors.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Errors/Errors.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Orders/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/Orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Orders/Orders.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/Orders.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/CustomSelects/SelectBox/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/CustomSelects/SelectBox/SelectBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/Promo/Promo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/Promo/Promo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Aside/Aside.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Aside/Aside.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +57,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -157,7 +166,11 @@
       <workItem from="1611676146154" duration="9044000" />
       <workItem from="1611751192596" duration="8584000" />
       <workItem from="1611803770867" duration="2712000" />
-      <workItem from="1611815584756" duration="13502000" />
+      <workItem from="1611815584756" duration="13885000" />
+      <workItem from="1611830486055" duration="151000" />
+      <workItem from="1611894936337" duration="12347000" />
+      <workItem from="1612081956103" duration="21475000" />
+      <workItem from="1612142210007" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -306,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611821878443</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="All pages created">
+      <created>1611829829727</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1611829829727</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +370,7 @@
     <MESSAGE value="Contact page created" />
     <MESSAGE value="Auth page created" />
     <MESSAGE value="Profile page created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Profile page created" />
+    <MESSAGE value="All pages created" />
+    <option name="LAST_COMMIT_MESSAGE" value="All pages created" />
   </component>
 </project>
