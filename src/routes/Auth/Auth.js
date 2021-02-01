@@ -4,6 +4,7 @@ import AuthFormik from "./AuthFormik/AuthFormik";
 import RegisterFormik from "./RegisterFormik/RegisterFormik";
 
 class Auth extends React.Component {
+
     constructor(props) {
         super(props);
         this.state = {isLoggedIn: false};

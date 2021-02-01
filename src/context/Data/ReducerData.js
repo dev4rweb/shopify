@@ -11,6 +11,11 @@ const ReducerData = (state, action) => {
                 ...state,
                 lang: action.payload
             };
+        case "IS_AUTH":
+            return {
+                ...state,
+                isLoggedIn: action.payload
+            };
         default:
             return state
     }

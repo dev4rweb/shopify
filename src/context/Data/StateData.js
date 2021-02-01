@@ -1,4 +1,5 @@
 const StateData = {
+    isLoggedIn: false,
     lang: [],
     products: [],
     header: {
@@ -55,22 +56,26 @@ const StateData = {
         contactPage: {
             ru: 'Контакты, связаться с нами',
             en: 'Contacts, contact us'
+        },
+        profilePage: {
+            ru: 'Личный кабинет',
+            en: 'Personal area'
         }
     },
     socialButtons: {
-        tDirect:{
+        tDirect: {
             ru: 'Прямая ссылка',
             en: 'direct link'
         },
         tAdmin: {
-            title:{
+            title: {
                 ru: 'Telegram администратор',
                 en: 'Telegram administrator'
             },
             link: 'https://t.me/SOFTKEYDOG'
         },
         tSupport: {
-            title:{
+            title: {
                 ru: 'Telegram техническая поддержка',
                 en: 'Telegram support'
             },
@@ -237,6 +242,89 @@ const StateData = {
             en: '<b>Sending keys: </b><br/> automatically and around the clock'
         }
     },
+    authPage: {
+        btnAuth: {
+            ru: 'Войти',
+            en: 'Login'
+        },
+        btnReg: {
+            ru: 'Регистрация',
+            en: 'Register'
+        }
+    },
+    profilePage: {
+        tabProfile: {
+            ru: 'Профиль',
+            en: 'Profile'
+        },
+        tabOrders: {
+            ru: 'Мои заказы',
+            en: 'My orders'
+        }
+    },
+    profileCard: {
+        fullName: 'DesHellArt',
+        name: 'Des',
+        surname: 'Hell',
+        regDate: '12.11.2020',
+        tName: {
+            ru: 'Имя: ',
+            en: 'Name: '
+        },
+        tSurname: {
+            ru: 'Фамилия: ',
+            en: 'Surname: '
+        },
+        tRegDate: {
+            ru: 'Дата регистрации: ',
+            en: 'Registration date: '
+        },
+        btnSend: {
+            ru: 'Написать сообщение',
+            en: 'to write a message'
+        },
+        btnSupport: {
+            ru: 'Связь с поддержкой',
+            en: 'Support Contact'
+        },
+
+    },
+    profileOrders: {
+        basket: {
+            ru: 'Ваша корзина',
+            en: 'Your cart'
+        },
+        btnPay: {
+            ru: 'Оплатить',
+            en: 'Pay'
+        },
+        btnPromo: {
+            ru: 'Ввести промокод',
+            en: 'Enter promo code'
+        },
+    },
+    ordersPage:{
+        tblName: {
+            ru: 'Наименование',
+            en: 'Name'
+        },
+        tblCost: {
+            ru: 'Стоимость',
+            en: 'The cost'
+        },
+        tblStatus: {
+            ru: 'Статус',
+            en: 'Status'
+        },
+        tblLink: {
+            ru: 'Ссылка',
+            en: 'Link'
+        },
+        clmPaid: {
+            ru: 'Оплачено',
+            en: 'Paid'
+        },
+    },
     contactFormik: {
         iLogin: {
             ru: 'Ваш логин',
@@ -261,6 +349,58 @@ const StateData = {
         brnSend: {
             ru: 'Отправить сообщение',
             en: 'Send a message'
+        },
+    },
+    authFormik: {
+        iLogin: {
+            ru: 'Ваш логин',
+            en: 'Your login'
+        },
+        iEmail: {
+            ru: 'Ваш email',
+            en: 'Your email'
+        },
+        cbRobots: {
+            ru: 'Я не робот!',
+            en: 'I am not a robot!'
+        },
+        forgotMsg: {
+            ru: 'Забыли пароль?',
+            en: 'Forgot your password?'
+        },
+        brnLogin: {
+            ru: 'Авторизоваться',
+            en: 'Login in'
+        },
+    },
+    registerFormik: {
+        iLogin: {
+            ru: 'Ваш логин',
+            en: 'Your login'
+        },
+        iEmail: {
+            ru: 'Ваш email',
+            en: 'Your email'
+        },
+        cbRobots: {
+            ru: 'Я не робот!',
+            en: 'I am not a robot!'
+        },
+        tPolitics: {
+            ru: 'Политика конфиденциальности',
+            en: 'Politics confidentiality'
+        },
+        password: {
+            ru: 'Ваш пароль',
+            en: 'Your password'
+        },
+        passwordConfirm: {
+            ru: 'Повторить пароль',
+            en: 'Repeat password'
+        },
+        brnReg: {
+            ru: 'Зарегистрироваться',
+            en: 'Register now'
         },
     }
 };

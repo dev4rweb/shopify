@@ -17,7 +17,7 @@ const Refund = lazy(() => import("./routes/Refund/Refund"));
 const About = lazy(() => import("./routes/About/About"));
 const Contacts = lazy(() => import("./routes/Contacts/Contacts"));
 const Profile = lazy(() => import("./routes/Profile/Profile"));
-const Auth = lazy(() => import("./routes/Auth/Auth"));
+const Auth = lazy(() => import("./routes/Auth/AuthFun"));
 const Errors = lazy(() => import("./routes/Errors/Errors"));
 const Orders = lazy(() => import("./routes/Orders/Orders"));
 

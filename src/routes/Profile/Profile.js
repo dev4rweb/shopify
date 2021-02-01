@@ -9,27 +9,61 @@ import Breadcrumbs from "../../components/libs/menus/Breadcrumbs/Breadcrumbs";
 import TabNavigation from "../../components/ui/TabNavigation/TabNavigation";
 import ProfileCard from "./ProfileCard/ProfileCard";
 import ProfileOrders from "./ProfileOrders/ProfileOrders";
+import ContextData from "../../context/Data/ContextData";
 
 const Profile = () => {
+    const {stateData} = React.useContext(ContextData);
+    let lang = stateData.lang;
+
+
+    const infoCard = stateData.infoCard;
+    let support = infoCard.support[lang] || `Тех Поддержка`;
+    let online = infoCard.online[lang] || 'онлайн';
+    let automatic = infoCard.automatic[lang] || 'Автоматическая';
+    let send = infoCard.send[lang] || `отправка ключей`;
+    let pay = infoCard.pay[lang] || `Все виды оплаты`;
+    let breadcrumbs = stateData.breadcrumbs.profilePage[lang] || 'Гарантии SoftKey';
+
 
 
     return (
         <section className={s.profile}>
             <div className={s.wrapper}>
                 <div className={s.containerInfo}>
-                    <InfoCard imgUrl={imgSupport} altImg={`image`}
-                              titleHead={`Тех Поддержка`} msg={`онлайн`}/>
-                    <InfoCard imgUrl={imgAutomatic} altImg={`image`}
-                              titleHead={`Автоматическая`} msg={`отправка ключей`}/>
-                    <InfoCard imgUrl={imgCard} altImg={`image`}
-                              titleHead={`Все виды оплаты`} msg={`онлайн`}/>
+                    <InfoCard
+                        imgUrl={imgSupport} altImg={`image`}
+                        titleHead={support}
+                        msg={online}
+                    />
+                    <InfoCard
+                        imgUrl={imgAutomatic} altImg={`image`}
+                        titleHead={automatic}
+                        msg={send}
+                    />
+                    <InfoCard
+                        imgUrl={imgCard} altImg={`image`}
+                        titleHead={pay}
+                        msg={online}/>
                 </div>
-                <Promo dateString={`December 31, 2021 00:00:25`}/>
-                <Breadcrumbs title={`Личный кабинет`}/>
-                <TabNavigation page={`profile`}/>
+                <Promo
+                    dateString={stateData.promo.date}
+                    content={stateData.promo.content[lang]}
+                />
+                <Breadcrumbs title={breadcrumbs}/>
+                <TabNavigation
+                    page={`profile`}
+                    lang={lang}
+                    data={stateData.profilePage}
+                />
                 <div className={s.profileContainer}>
-                    <ProfileCard/>
-                    <ProfileOrders/>
+                    <ProfileCard
+                        lang={lang}
+                        data={stateData.profileCard}
+                    />
+                    <ProfileOrders
+                        lang={lang}
+                        data={stateData.profileOrders}
+                    />
                 </div>
             </div>
         </section>

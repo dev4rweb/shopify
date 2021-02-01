@@ -12,7 +12,7 @@ const ContactFormik = (props) => {
     /*https://www.w3schools.com/howto/howto_css_custom_checkbox.asp*/
     /*https://ru.reactjs.org/docs/refs-and-the-dom.html*/
 
-    let lang = props.lang;
+    let lang = props.lang || 'ru';
     let iLogin = props.data.iLogin[lang] || 'text';
     let iEmail = props.data.iEmail[lang] || 'text';
     let tRobots = props.data.tRobots[lang] || 'text';

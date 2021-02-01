@@ -5,8 +5,9 @@ import {Field} from "formik";
 import imgCheck from '../../../../assets/img/png/ic-checkbox.png';
 
 const FormikCheckbox = (props) => {
-    let lang = props.lang;
-    let cbRobots = props.data[lang];
+    let lang = props.lang || 'ru';
+    let cbRobots = props.data ? props.data[lang] : 'text';
+
     return (
         <div className={s.formikCheckbox}>
             <Checkbox type="checkbox" name="isRobots" checked={props.values}

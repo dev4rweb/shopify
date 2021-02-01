@@ -2,7 +2,13 @@ import React from 'react';
 import s from './OrdersTable.module.scss';
 import OrdersRow from "./OrdersRow/OrdersRow";
 
-const OrdersTable = () => {
+const OrdersTable = (props) => {
+
+    const lang = props.lang || 'ru';
+    const tblName = props.data.tblName ? props.data.tblName[lang] : 'text';
+    const tblCost = props.data.tblCost ? props.data.tblCost[lang] : 'text';
+    const tblStatus = props.data.tblStatus ? props.data.tblStatus[lang] : 'text';
+    const tblLink = props.data.tblLink ? props.data.tblLink[lang] : 'text';
 
     const [orders, setOrders] = React.useState([
         {id: 1, name: 'Microsoft Office 365 pro', price: '638', isBye: 'Оплачено', link: 'Ссылка'},
@@ -18,10 +24,10 @@ const OrdersTable = () => {
             <thead>
             <tr className={s.header}>
                 <th>№</th>
-                <th>Наименование</th>
-                <th>Стоимость</th>
-                <th>Статус</th>
-                <th>Ссылка</th>
+                <th>{tblName}</th>
+                <th>{tblCost}</th>
+                <th>{tblStatus}</th>
+                <th>{tblLink}</th>
             </tr>
             </thead>
             <tbody>
@@ -31,6 +37,8 @@ const OrdersTable = () => {
                         order={order}
                         key={order.id}
                         index={index}
+                        lang={lang}
+                        data={props.data}
                     />
                 })
             ) : (

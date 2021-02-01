@@ -4,7 +4,12 @@ import imgDel from '../../../assets/img/svg/delete.svg'
 import ProfileOrderList from "./ProfileOrderList/ProfileOrderList";
 import GradientButton from "../../../components/ui/GradientButton/GradientButton";
 
-const ProfileOrders = () => {
+const ProfileOrders = (props) => {
+
+    const lang = props.lang || 'ru';
+    let basket = props.data ? props.data.basket[lang] : 'text';
+    let btnPay = props.data ? props.data.btnPay[lang] : 'text';
+    let btnPromo = props.data ? props.data.btnPromo[lang] : 'text';
 
     const [orders, setOrders] = React.useState([
         {id: 1, name: 'Наименование товара', price: '600', isRemove: false},
@@ -33,7 +38,8 @@ const ProfileOrders = () => {
 
     return (
         <div className={s.profileOrders}>
-            <h6 className={s.header}>Ваша корзина
+            <h6 className={s.header}>
+                {basket}
                 <img src={imgDel} alt="trashcan" onClick={removeItems}/>
             </h6>
             <div className={s.orders}>
@@ -48,10 +54,10 @@ const ProfileOrders = () => {
             </div>
             <div className={s.footer}>
                 <div className={s.sumWrapper}>
-                    <button className={s.btnGradient}>Оплатить</button>
+                    <button className={s.btnGradient}>{btnPay}</button>
                     <span className={s.sum}>2 400$</span>
                 </div>
-                <p className={s.promo}>Ввести промокод</p>
+                <p className={s.promo}>{btnPromo}</p>
             </div>
         </div>
     );

@@ -2,6 +2,9 @@ import React from 'react';
 import s from './OrdersRow.module.scss';
 
 const OrdersRow = (props) => {
+    const lang = props.lang || 'ru';
+    const tblName = props.data.tblName ? props.data.tblName[lang] : 'text';
+
     const index = props.index || 1;
     const name = props.order.name || 'undefined name';
     const price = props.order.price || 'unknown';
@@ -11,7 +14,7 @@ const OrdersRow = (props) => {
         <tr className={s.ordersRow}>
             <td>{index}</td>
             <td>{name}</td>
-            <td>{price} $</td>
+            <td>{price}$</td>
             <td>{isBye}</td>
             <td>{link}</td>
         </tr>
