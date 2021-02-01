@@ -63,6 +63,8 @@ function App(props) {
         })
     }
 
+    let lang = stateData.lang;
+
     return (
         <ContextData.Provider value={{stateData, dispatchData}}>
             <div className={s.App}>
@@ -87,6 +89,7 @@ function App(props) {
                 <Footer
                     ref={footerRef}
                     changeLanguage={changeLanguage}
+                    lang={lang}
                 />
             </div>
         </ContextData.Provider>

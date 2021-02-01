@@ -5,7 +5,10 @@ class SelectBox extends React.Component {
     state = {
         ...this.props,
         items: this.props.items || [],
-        selectedItem: this.props.items[0] || this.props.selectedItem,
+        // selectedItem: this.props.items[0] || this.props.selectedItem,
+        selectedItem: this.props.lang.includes('ru') ? this.props.items[1] :
+            this.props.items[0] ||
+            this.props.selectedItem,
         showItems: false,
     };
 
@@ -20,7 +23,7 @@ class SelectBox extends React.Component {
             selectedItem: item,
             showItems: false,
 
-        })
+        });
         let lang = item.id === 1 ? 'ru' : 'en';
         this.props.changeLanguage(lang);
     };

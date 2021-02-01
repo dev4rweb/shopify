@@ -17,6 +17,7 @@ const Footer = React.forwardRef((props, ref) => (
                         { value: 'English', id: 2 },
                     ]}
                     changeLanguage={props.changeLanguage}
+                    lang={props.lang}
                 />
             </div>
         </div>

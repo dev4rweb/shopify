@@ -5,6 +5,8 @@ import {Field} from "formik";
 import imgCheck from '../../../../assets/img/png/ic-checkbox.png';
 
 const FormikCheckbox = (props) => {
+    let lang = props.lang;
+    let cbRobots = props.data[lang];
     return (
         <div className={s.formikCheckbox}>
             <Checkbox type="checkbox" name="isRobots" checked={props.values}
@@ -13,8 +15,8 @@ const FormikCheckbox = (props) => {
                       borderRadius={27}
                       style={{backgroundColor: '#d5e0e8'}}
                       size={50}
-                      label={'Я не робот!'}
-                      labelStyle={{ marginLeft: 60, userSelect: "none", color: '#95a0c2' }}
+                      label={cbRobots}
+                      labelStyle={{ marginLeft: 55, userSelect: "none", color: '#95a0c2' }}
             />
             <Field type="checkbox" name="isRobots"
                    onChange={props.handleChange} className={s.hidden}/>

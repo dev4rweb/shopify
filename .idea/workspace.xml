@@ -4,13 +4,14 @@
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/payment/PaymentMain/PaymentMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentMain/PaymentMain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/refund/RefundFormik/RefundFormik.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/refund/RefundFormik/RefundFormik.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/CustomSelects/SelectBox/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/CustomSelects/SelectBox/SelectBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/CusttomCheckboxes/FormikCheckbox/FormikCheckbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/CusttomCheckboxes/FormikCheckbox/FormikCheckbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/contacts/ContactFormik/ContactFormik.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/contacts/ContactFormik/ContactFormik.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/Data/StateData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/Data/StateData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Refund/Refund.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +161,8 @@
       <workItem from="1611830486055" duration="151000" />
       <workItem from="1611894936337" duration="12347000" />
       <workItem from="1612081956103" duration="21475000" />
-      <workItem from="1612142210007" duration="7282000" />
+      <workItem from="1612142210007" duration="7636000" />
+      <workItem from="1612176020071" duration="5548000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -323,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612142721589</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="translated to refund page">
+      <created>1612149653538</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1612149653538</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,6 +378,7 @@
     <MESSAGE value="Profile page created" />
     <MESSAGE value="All pages created" />
     <MESSAGE value="create general state with translate" />
-    <option name="LAST_COMMIT_MESSAGE" value="create general state with translate" />
+    <MESSAGE value="translated to refund page" />
+    <option name="LAST_COMMIT_MESSAGE" value="translated to refund page" />
   </component>
 </project>

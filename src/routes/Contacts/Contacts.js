@@ -6,56 +6,74 @@ import iconTelegram from '../../assets/img/svg/telegram.svg';
 import iconViber from '../../assets/img/svg/viber-brands.svg';
 import iconWhatsApp from '../../assets/img/svg/whatsapp-brands.svg';
 import ContactFormik from "../../components/ui/contacts/ContactFormik/ContactFormik";
+import ContextData from "../../context/Data/ContextData";
 
 const Contacts = () => {
+    const {stateData} = React.useContext(ContextData);
+    let lang = stateData.lang;
+    let breadcrumbs = stateData.breadcrumbs.contactPage[lang] ||
+        'Контакты, связаться с нами';
+
+    /*SOCIAL VARS START*/
+    let tAdmin = stateData.socialButtons.tAdmin.title[lang];
+    let tDirect = stateData.socialButtons.tDirect[lang];
+    let tAdminLink = stateData.socialButtons.tAdmin.link;
+
+    let tSupport = stateData.socialButtons.tSupport.title[lang];
+    let tSupportLink = stateData.socialButtons.tSupport.link;
+
+    let viber = stateData.socialButtons.viber.title;
+    let viberLink = stateData.socialButtons.viber.link;
+
+    let whatsApp = stateData.socialButtons.whatsApp.title;
+    let whatsAppLink = stateData.socialButtons.whatsApp.link;
+    /*SOCIAL VARS END*/
+
+    /*WORK BLOCK START*/
+    let techSup = stateData.contactPage.techSup[lang] || 'text';
+    let btnSup = stateData.contactPage.btnSup[lang] || 'text';
+    let techSupport = stateData.contactPage.techSupport[lang] || 'text';
+    let keys = stateData.contactPage.keys[lang] || 'text';
+    /*WORK BLOCK END*/
     return (
         <section className={s.contacts}>
             <div className={s.wrapper}>
-                <Breadcrumbs title={`Контакты, связаться с нами`}/>
+                <Breadcrumbs title={breadcrumbs}/>
                 <div className={s.socialWrapper}>
                     <SocialButton
                         image={iconTelegram}
-                        title={`Telegram администратор`}
-                        text={`Прямая ссылка`}
-                        link={`https://t.me/SOFTKEYDOG`}/>
+                        title={tAdmin}
+                        text={tDirect}
+                        link={tAdminLink}/>
                     <SocialButton
                         image={iconTelegram}
-                        title={`Telegram техническая поддержка`}
-                        text={`Прямая ссылка`}
-                        link={`https://t.me/softkeydog_bot`}/>
+                        title={tSupport}
+                        text={tDirect}
+                        link={tSupportLink}/>
                     <SocialButton
                         image={iconViber}
-                        title={`Viber`}
-                        text={`Прямая ссылка`}
-                        link={`viber://chat/?number=%B380682168881`}/>
+                        title={viber}
+                        text={tDirect}
+                        link={viberLink}/>
                     <SocialButton
                         image={iconWhatsApp}
-                        title={`WhatsApp`}
-                        text={`Прямая ссылка`}
-                        link={`whatsapp://send?phone=380682168881`}/>
+                        title={whatsApp}
+                        text={tDirect}
+                        link={whatsAppLink}/>
                 </div>
                 <div className={s.contactContainer}>
                     <div className={s.support}>
-                        <p>
-                            <b>Тех поддержка онлайн: </b>
-                            ПН-ПТ с 10:00 до 17:00
-                        </p>
+                        <p dangerouslySetInnerHTML={{__html: techSup}}/>
                     </div>
                     <div className={s.btn}>
-                        <button>Связаться</button>
+                        <button>{btnSup}</button>
                     </div>
                     <div>
-                        <p>
-                            <b>График работы: </b><br/>
-                            понедельник-пятница с 10:00 до 17:00
-                        </p>
-                        <p>
-                            <b>Отправка ключей: </b><br/>
-                            автоматически и круглосуточно
-                        </p>
+                        <p dangerouslySetInnerHTML={{__html: techSupport}}/>
+                        <p dangerouslySetInnerHTML={{__html: keys}}/>
                     </div>
                 </div>
-                <ContactFormik/>
+                <ContactFormik data={stateData.contactFormik} lang={lang}/>
             </div>
         </section>
     )

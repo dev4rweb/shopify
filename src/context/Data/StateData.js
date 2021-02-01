@@ -40,13 +40,49 @@ const StateData = {
             ru: 'Гарантии SoftKey',
             en: 'Softkey guarantees'
         },
-        paymentPage:{
+        paymentPage: {
             ru: 'Оплата и доставка на SoftKey',
             en: 'Payment and delivery on SoftKey'
         },
-        refundPage:{
+        refundPage: {
             ru: 'Обмен и возврат',
             en: 'Exchange and return'
+        },
+        aboutPage: {
+            ru: 'Немного о нас',
+            en: 'A little about us'
+        },
+        contactPage: {
+            ru: 'Контакты, связаться с нами',
+            en: 'Contacts, contact us'
+        }
+    },
+    socialButtons: {
+        tDirect:{
+            ru: 'Прямая ссылка',
+            en: 'direct link'
+        },
+        tAdmin: {
+            title:{
+                ru: 'Telegram администратор',
+                en: 'Telegram administrator'
+            },
+            link: 'https://t.me/SOFTKEYDOG'
+        },
+        tSupport: {
+            title:{
+                ru: 'Telegram техническая поддержка',
+                en: 'Telegram support'
+            },
+            link: 'https://t.me/softkeydog_bot'
+        },
+        viber: {
+            title: 'Viber',
+            link: 'viber://chat/?number=%B380682168881'
+        },
+        whatsApp: {
+            title: 'WhatsApp',
+            link: 'whatsapp://send?phone=380682168881'
         }
     },
     guaranteePage: {
@@ -82,8 +118,8 @@ const StateData = {
             }
         }
     },
-    paymentPage:{
-        paymentMain:{
+    paymentPage: {
+        paymentMain: {
             ru: 'В течение 1-й минуты после получения оплаты, система автоматически отправляет ' +
                 'ключ на е-меил, который был указан в платежной форме. Если письма нет в ' +
                 'папке "Входящие", тогда проверьте папку «Спам».',
@@ -91,9 +127,9 @@ const StateData = {
                 'sends the key to the e-mail that was specified in the payment form. If' +
                 'the message is not in your Inbox, then check you Spam folder'
         },
-        title:{
+        title: {
             ru: 'В письме Вы получаете:',
-            en:'In the letter you receive'
+            en: 'In the letter you receive'
         },
         paymentCards: {
             instruction: {
@@ -129,7 +165,7 @@ const StateData = {
                 ' Technical support during working hours responds to requests ' +
                 'within 10-15 minutes and always successfully resolves any issues'
         },
-        secondBlock:{
+        secondBlock: {
             ru: 'В случае если Вы приобрели ключ, и хотите его вернуть - данная' +
                 ' процедура невозможна, согласно постановления Кабинета Министров ' +
                 'Украины от 19 марта 1994 № 172, поскольку интернет-магазин не может' +
@@ -144,19 +180,88 @@ const StateData = {
             en: 'Apply for a return'
         },
         formContent: {
-            email:{
+            email: {
                 ru: 'Ваш email',
                 en: 'Your email'
             },
-            purchase:{
+            purchase: {
                 ru: 'Номер покупки',
                 en: 'Purchase number'
             },
-            btnText:{
+            btnText: {
                 ru: 'Подать заявление',
                 en: 'Apply'
             }
         }
+    },
+    aboutPage: {
+        firstBlock: {
+            ru: 'Наша компания работает с 2016 года в сфере создания и интеграции мобильного ' +
+                'ПО для корпоративного сектора и коммерческих предприятий',
+            en: 'Our company has been working since 2016 in the development and' +
+                'integration of mobile software for the corporate sector and' +
+                'commercial enterprises'
+        },
+        secondBlock: {
+            ru: '2020 года наша компания под брендом "SoftKey" начала оказывать' +
+                ' услуги по продаже всего спектра продукции компании Microsoft:' +
+                ' Windows, Office, Server и прочих решенийю В нашей команде собраны' +
+                ' настоящие эксперты в своей отрасли, которые готовы предложить' +
+                ' наилучшее решение для оптимизации Вашего ПО',
+            en: 'In 2020? our company under the "SoftKey" brand began to provide' +
+                'services for the sale of the entire range of Microsoft products:' +
+                'Windows, Office, Server and other solutions. Our team includes' +
+                'real experts in their field who are ready to offer the best' +
+                'solution for optimizing your software'
+        },
+        btnText: {
+            ru: 'Отзывы о нас',
+            en: 'Reviews about us'
+        }
+    },
+    contactPage: {
+        techSup: {
+            ru: '<b>Тех поддержка онлайн: </b> ПН-ПТ с 10:00 до 17:00',
+            en: '<b>Online technical support:</b> Mon-Fri from 10.00 to 17.00'
+        },
+        btnSup: {
+            ru: 'Связаться',
+            en: 'Contact'
+        },
+        techSupport: {
+            ru: '<b>График работы: </b><br/> понедельник-пятница с 10:00 до 17:00',
+            en: '<b>Schedule: </b><br/> Monday-Friday from 10.00 to 17.00'
+        },
+        keys: {
+            ru: '<b>Отправка ключей: </b><br/> автоматически и круглосуточно',
+            en: '<b>Sending keys: </b><br/> automatically and around the clock'
+        }
+    },
+    contactFormik: {
+        iLogin: {
+            ru: 'Ваш логин',
+            en: 'Your login'
+        },
+        iEmail: {
+            ru: 'Ваш email',
+            en: 'Your email'
+        },
+        cbRobots: {
+            ru: 'Я не робот!',
+            en: 'I am not a robot!'
+        },
+        tRobots: {
+            ru: 'Правила обращения',
+            en: 'Terms of reference'
+        },
+        taMsg: {
+            ru: 'Ваше сообщение',
+            en: 'Your message'
+        },
+        brnSend: {
+            ru: 'Отправить сообщение',
+            en: 'Send a message'
+        },
     }
 };
 

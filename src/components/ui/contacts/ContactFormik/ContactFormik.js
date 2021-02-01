@@ -7,10 +7,18 @@ import ReactCheckbox from "../../../libs/CusttomCheckboxes/ReactCheckbox/ReactCh
 import Checkbox from "react-custom-checkbox";
 import FormikCheckbox from "../../../libs/CusttomCheckboxes/FormikCheckbox/FormikCheckbox";
 
-const ContactFormik = () => {
+const ContactFormik = (props) => {
     /*https://formik.org/docs/examples/checkboxes*/
     /*https://www.w3schools.com/howto/howto_css_custom_checkbox.asp*/
     /*https://ru.reactjs.org/docs/refs-and-the-dom.html*/
+
+    let lang = props.lang;
+    let iLogin = props.data.iLogin[lang] || 'text';
+    let iEmail = props.data.iEmail[lang] || 'text';
+    let tRobots = props.data.tRobots[lang] || 'text';
+    let taMsg = props.data.taMsg[lang] || 'text';
+    let brnSend = props.data.brnSend[lang] || 'text';
+
     return (
         <div className={s.contactFormik}>
             <Formik
@@ -32,15 +40,22 @@ const ContactFormik = () => {
                       /* and other goodies */
                   }) => (
                     <form onSubmit={handleSubmit}>
-                        <Field className={s.login} name="login" type="text" placeholder={`Ваш логин`}/>
-                        <Field className={s.email} name="email" type="email" placeholder={`Ваш email`}/>
+                        <Field className={s.login} name="login"
+                               type="text" placeholder={iLogin}/>
+                        <Field className={s.email} name="email"
+                               type="email" placeholder={iEmail}/>
                         <div className={s.agreementBox}>
-                            <FormikCheckbox className={s.checkbox} handleChange={handleChange} values={values.isRobots}/>
-                            <a className={s.agree} href="#">Правила обращения</a>
+                            <FormikCheckbox
+                                className={s.checkbox}
+                                handleChange={handleChange}
+                                values={values.isRobots}
+                                lang={lang} data={props.data.cbRobots}
+                            />
+                            <a className={s.agree} href="#">{tRobots}</a>
                         </div>
                         <Field className={s.textarea} name="text" component="textarea"
-                               placeholder={`Ваше сообщение`}/>
-                        <GradientButton className={s.button} name={`Отправить сообщение`}/>
+                               placeholder={taMsg}/>
+                        <GradientButton className={s.button} name={brnSend}/>
                     </form>
                 )}
             </Formik>
