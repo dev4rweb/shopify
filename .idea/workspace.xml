@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shopify.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/Data/ContextData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/Data/ReducerData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/Data/StateData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/CustomSelects/SelectBox/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/CustomSelects/SelectBox/SelectBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/Promo/Promo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/Promo/Promo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Aside/Aside.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Aside/Aside.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/modules/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/payment/PaymentMain/PaymentMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentMain/PaymentMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/refund/RefundFormik/RefundFormik.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/refund/RefundFormik/RefundFormik.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/Data/StateData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/Data/StateData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Payment/Payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Payment/Payment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Refund/Refund.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +160,7 @@
       <workItem from="1611830486055" duration="151000" />
       <workItem from="1611894936337" duration="12347000" />
       <workItem from="1612081956103" duration="21475000" />
-      <workItem from="1612142210007" duration="288000" />
+      <workItem from="1612142210007" duration="7282000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -326,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611829829727</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="create general state with translate">
+      <created>1612142721589</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612142721589</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,6 +368,7 @@
     <MESSAGE value="Auth page created" />
     <MESSAGE value="Profile page created" />
     <MESSAGE value="All pages created" />
-    <option name="LAST_COMMIT_MESSAGE" value="All pages created" />
+    <MESSAGE value="create general state with translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="create general state with translate" />
   </component>
 </project>

@@ -3,7 +3,12 @@ import s from './RefundFormik.module.scss';
 import { Formik, Field, Form } from "formik";
 import GradientButton from "../../GradientButton/GradientButton";
 
-const RefundFormik = () => {
+const RefundFormik = (props) => {
+    const lang = props.lang;
+    const data = props.data;
+    let email = data.email[lang] || 'Ваш email';
+    let purchase = data.purchase[lang] || 'Номер покупки';
+    let btnText = data.btnText[lang] || 'Подать заявление';
     return (
         <div className={s.refundFormik}>
             <Formik
@@ -15,10 +20,10 @@ const RefundFormik = () => {
             >
                 <Form>
                     <div>
-                        <Field name="email" type="email" placeholder={`Ваш email`}/>
-                        <Field name="order" type="text" placeholder={`Номер покупки`}/>
+                        <Field name="email" type="email" placeholder={email}/>
+                        <Field name="order" type="text" placeholder={purchase}/>
                     </div>
-                    <GradientButton name={`Подать заявление`}/>
+                    <GradientButton name={btnText}/>
                 </Form>
             </Formik>
         </div>

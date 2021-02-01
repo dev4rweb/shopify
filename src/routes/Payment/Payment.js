@@ -8,25 +8,47 @@ import imgInstruction from '../../assets/img/png/ic-instruction.png'
 import imgKey from '../../assets/img/png/ic-key.png'
 import imgLink from '../../assets/img/png/ic-link.png'
 import Coupon from "../../components/ui/payment/Coupon/Coupon";
+import ContextData from "../../context/Data/ContextData";
 
 const Payment = () => {
+    // eslint-disable-next-line no-unused-vars
+    const {stateData} = React.useContext(ContextData);
+    let lang = stateData.lang;
+    let breadcrumbs = stateData.breadcrumbs.paymentPage[lang] ||
+        'Оплата и доставка на SoftKey';
+
+    let title = stateData.paymentPage.title[lang] ||
+        'В письме Вы получаете:';
+
+    let payCartInstruction = stateData.paymentPage.paymentCards.instruction[lang] ||
+        `Инструкцию по активации`;
+    let payCartKey = stateData.paymentPage.paymentCards.key[lang] ||
+        `Лицензионный ключ активации`;
+    let payCartLink = stateData.paymentPage.paymentCards.link[lang] ||
+        `ссылку на официальный дистрибутив`;
+
     return (
         <section className={s.payment}>
             <div className={s.wrapper}>
-                <Promo dateString={`December 31, 2021 00:00:25`}/>
-                <Breadcrumbs title={`Оплата и доставка на SoftKey`}/>
-                <PaymentMain/>
-                <p className={s.youGet}>В письме Вы получаете:</p>
+                <Promo
+                    dateString={stateData.promo.date}
+                    content={stateData.promo.content[lang]}
+                />
+                <Breadcrumbs title={breadcrumbs}/>
+                <PaymentMain
+                    content={stateData.paymentPage.paymentMain[lang]}
+                />
+                <p className={s.youGet}>{title}</p>
                 <div className={s.cardsWrapper}>
                     <PaymentCart number={1}
-                    content={`Инструкцию по активации`}
-                    image={imgInstruction}/>
+                                 content={payCartInstruction}
+                                 image={imgInstruction}/>
                     <PaymentCart number={2}
-                    content={`Лицензионный ключ активации`}
-                    image={imgKey}/>
+                                 content={payCartKey}
+                                 image={imgKey}/>
                     <PaymentCart number={3}
-                    content={`ссылку на официальный дистрибутив`}
-                    image={imgLink}/>
+                                 content={payCartLink}
+                                 image={imgLink}/>
                 </div>
                 <div className={s.couponWrapper}>
                     <Coupon/>

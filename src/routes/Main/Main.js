@@ -22,7 +22,6 @@ const Main = (props) => {
     const {stateData, dispatchData} = React.useContext(ContextData);
     const products = stateData.products;
 
-    // const [products, setProducts] = React.useState([]);
     useEffect(() => {
         const fetchProducts = async () => {
             try {
@@ -49,6 +48,7 @@ const Main = (props) => {
     let automatic = infoCard.automatic[lang] || 'Автоматическая';
     let send = infoCard.send[lang] || `отправка ключей`;
     let pay = infoCard.pay[lang] || `Все виды оплаты`;
+    let breadcrumbs = stateData.breadcrumbs.mainPage[lang] || 'Ключи Windows 10 PRO';
 
     return (
         <section className={s.main}>
@@ -73,7 +73,7 @@ const Main = (props) => {
                     dateString={stateData.promo.date}
                     content={stateData.promo.content[lang]}
                 />
-                <Breadcrumbs title={`Ключи Windows 10 PRO`}/>
+                <Breadcrumbs title={breadcrumbs}/>
                 <Cards products={products} client={client}/>
 
             </div>
