@@ -71,6 +71,7 @@
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
       margin-bottom: 20px;
+      cursor: pointer;
 
       & > div {
         background-image: linear-gradient($angle, $btnBasketStart 38%, $btnBasketEnd 60%);

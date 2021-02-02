@@ -11,6 +11,7 @@ import ContextData from "../../context/Data/ContextData";
 const Header = (props) => {
 const headerRef = React.createRef();
     const {stateData, dispatchData} = React.useContext(ContextData);
+    let basketCount = stateData.checkout.lineItems.length;
     let lang = stateData.lang;
     let header = stateData.header;
     let cabinet = header.cabinet[lang];
@@ -29,9 +30,9 @@ const headerRef = React.createRef();
                         <p>DesHellArt</p>
                         <NavLink to={`/profile`}>{cabinet}</NavLink>
                     </div>
-                    <NavLink to={`/orders`} className={s.basket}>
+                    <NavLink to={`/profile`} className={s.basket}>
                         <img src={basket} alt="basket"/>
-                             <span>5</span>
+                             <span>{basketCount}</span>
                     </NavLink>
                 </div>
             </div>

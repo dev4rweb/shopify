@@ -63,6 +63,7 @@ function App(props) {
         })
     }
 
+
     let lang = stateData.lang;
 
     return (

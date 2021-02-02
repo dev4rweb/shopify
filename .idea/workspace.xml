@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/Auth/AuthFun.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/CusttomCheckboxes/FormikCheckbox/FormikCheckbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/CusttomCheckboxes/FormikCheckbox/FormikCheckbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/TabNavigation/TabNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/TabNavigation/TabNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/contacts/ContactFormik/ContactFormik.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/contacts/ContactFormik/ContactFormik.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/Data/ReducerData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/Data/ReducerData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/Data/StateData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/Data/StateData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Auth/AuthFormik/AuthFormik.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/AuthFormik/AuthFormik.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Auth/RegisterFormik/RegisterFormik.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/RegisterFormik/RegisterFormik.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Orders/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/Orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersRow/OrdersRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersRow/OrdersRow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileCard/ProfileCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileCard/ProfileCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderItem/ProfileOrderItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderItem/ProfileOrderItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrders.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +50,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../storefront-api-examples/react-js-buy" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -170,7 +164,8 @@
       <workItem from="1611894936337" duration="12347000" />
       <workItem from="1612081956103" duration="21475000" />
       <workItem from="1612142210007" duration="7636000" />
-      <workItem from="1612176020071" duration="18115000" />
+      <workItem from="1612176020071" duration="18360000" />
+      <workItem from="1612226893256" duration="8841000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -347,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612181651614</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="translated all pages">
+      <created>1612194438882</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1612194438882</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,6 +397,7 @@
     <MESSAGE value="create general state with translate" />
     <MESSAGE value="translated to refund page" />
     <MESSAGE value="translated all menu pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="translated all menu pages" />
+    <MESSAGE value="translated all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="translated all pages" />
   </component>
 </project>

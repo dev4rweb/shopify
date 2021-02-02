@@ -3,8 +3,12 @@ import s from './ProfileOrders.module.scss';
 import imgDel from '../../../assets/img/svg/delete.svg'
 import ProfileOrderList from "./ProfileOrderList/ProfileOrderList";
 import GradientButton from "../../../components/ui/GradientButton/GradientButton";
+import ContextData from "../../../context/Data/ContextData";
 
 const ProfileOrders = (props) => {
+    const {stateData, dispatchData} = React.useContext(ContextData);
+
+    let totalPrice = stateData.checkout.totalPrice;
 
     const lang = props.lang || 'ru';
     let basket = props.data ? props.data.basket[lang] : 'text';
@@ -36,6 +40,8 @@ const ProfileOrders = (props) => {
         setOrders(orders.filter(order => order.isRemove === false));
     }
 
+
+
     return (
         <div className={s.profileOrders}>
             <h6 className={s.header}>
@@ -55,7 +61,7 @@ const ProfileOrders = (props) => {
             <div className={s.footer}>
                 <div className={s.sumWrapper}>
                     <button className={s.btnGradient}>{btnPay}</button>
-                    <span className={s.sum}>2 400$</span>
+                    <span className={s.sum}>{totalPrice} $</span>
                 </div>
                 <p className={s.promo}>{btnPromo}</p>
             </div>

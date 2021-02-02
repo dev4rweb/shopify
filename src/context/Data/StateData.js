@@ -2,6 +2,8 @@ const StateData = {
     isLoggedIn: false,
     lang: [],
     products: [],
+    checkout: {lineItems: []},
+    shop: {},
     header: {
         cabinet: {
             ru: 'Личный кабинет', en: 'Personal Area'

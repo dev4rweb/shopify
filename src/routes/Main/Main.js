@@ -27,18 +27,44 @@ const Main = (props) => {
             try {
                 client.product.fetchAll()
                     .then((res) => {
-                        const result = res;
                         dispatchData({
                             type: 'FETCH_PRODUCTS',
-                            payload: result
+                            payload: res
                         });
-                        // console.log(res);
                     });
             } catch (e) {
                 console.log(e);
             }
         };
+        const fetchCheckout = async ()=> {
+            try {
+                client.checkout.create()
+                    .then((res) => {
+                        dispatchData({
+                            type: "FETCH_CHECKOUT",
+                            payload: res
+                        })
+                    });
+            } catch (e) {
+                console.log(e);
+            }
+        };
+        const fetchShop = async ()=>{
+            try {
+                client.shop.fetchInfo()
+                    .then((res)=>{
+                        dispatchData({
+                            type:"FETCH_SHOP",
+                            payload: res
+                        })
+                    });
+            } catch (e) {
+                console.log(e);
+            }
+        };
+        fetchCheckout();
         fetchProducts();
+        fetchShop();
     }, []);
 
     let lang = stateData.lang;

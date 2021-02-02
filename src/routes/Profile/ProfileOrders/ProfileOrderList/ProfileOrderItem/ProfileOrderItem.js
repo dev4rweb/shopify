@@ -3,8 +3,10 @@ import s from './ProfileOrderItem.module.scss';
 import Checkbox from "react-custom-checkbox";
 
 const ProfileOrderItem = (props) => {
-    const product = props.order.name || 'Product undefined';
-    const price = props.order.price || '000';
+    // const product = props.order.name || 'Product undefined';
+    const product = props.order.title || 'Product undefined';
+    // const price = props.order.price || '000';
+    const price = props.order.variant.price || '000';
     const isRemove = props.order.isRemove || false;
     return (
         <li className={s.profileOrderItem}>

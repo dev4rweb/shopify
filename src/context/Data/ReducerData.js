@@ -16,6 +16,21 @@ const ReducerData = (state, action) => {
                 ...state,
                 isLoggedIn: action.payload
             };
+        case "FETCH_CHECKOUT":
+            return {
+                ...state,
+                checkout: action.payload
+            };
+        case "FETCH_SHOP":
+            return {
+                ...state,
+                shop: action.payload
+            };
+        case "ADD_TO_CART":
+            return {
+                ...state,
+                checkout: action.payload
+            };
         default:
             return state
     }
