@@ -31,6 +31,11 @@ const ReducerData = (state, action) => {
                 ...state,
                 checkout: action.payload
             };
+        case "REMOVE_ITEM_IN_CART":
+            return {
+                ...state,
+                checkout: action.payload
+            };
         default:
             return state
     }

@@ -11,9 +11,11 @@ import ProfileCard from "./ProfileCard/ProfileCard";
 import ProfileOrders from "./ProfileOrders/ProfileOrders";
 import ContextData from "../../context/Data/ContextData";
 
-const Profile = () => {
+const Profile = (props) => {
     const {stateData} = React.useContext(ContextData);
     let lang = stateData.lang;
+
+    let removeLineItemInCart = props.removeLineItemInCart;
 
 
     const infoCard = stateData.infoCard;
@@ -63,6 +65,7 @@ const Profile = () => {
                     <ProfileOrders
                         lang={lang}
                         data={stateData.profileOrders}
+                        removeLineItemInCart={removeLineItemInCart}
                     />
                 </div>
             </div>

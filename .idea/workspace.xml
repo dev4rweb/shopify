@@ -5,12 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/Data/ReducerData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/Data/ReducerData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/Data/StateData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/Data/StateData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Guarantee/Guarantee.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderItem/ProfileOrderItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderItem/ProfileOrderItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrders.js" afterDir="false" />
@@ -50,7 +48,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../storefront-api-examples/react-js-buy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,7 +163,9 @@
       <workItem from="1612081956103" duration="21475000" />
       <workItem from="1612142210007" duration="7636000" />
       <workItem from="1612176020071" duration="18360000" />
-      <workItem from="1612226893256" duration="8841000" />
+      <workItem from="1612226893256" duration="9088000" />
+      <workItem from="1612249108718" duration="6854000" />
+      <workItem from="1612282894335" duration="474000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -349,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612194438882</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="edit profile orders with basket using state">
+      <created>1612237494388</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1612237494388</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +380,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/shopify" />
     </ignored-roots>
-    <MESSAGE value="start" />
     <MESSAGE value="core configuration" />
     <MESSAGE value="creating Navbar" />
     <MESSAGE value="creating Page coming soon" />
@@ -398,6 +404,7 @@
     <MESSAGE value="translated to refund page" />
     <MESSAGE value="translated all menu pages" />
     <MESSAGE value="translated all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="translated all pages" />
+    <MESSAGE value="edit profile orders with basket using state" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit profile orders with basket using state" />
   </component>
 </project>

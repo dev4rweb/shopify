@@ -4,18 +4,25 @@ import ProfileOrderItem from "./ProfileOrderItem/ProfileOrderItem";
 import ContextData from "../../../../context/Data/ContextData";
 
 const ProfileOrderList = (props) => {
+
+    let removeLineItemInCart = props.removeLineItemInCart;
+
     const {stateData, dispatchData} = React.useContext(ContextData);
+
+
 
     let line_items = stateData.checkout.lineItems.map((line_item, index)=>{
 
         return (
             <ProfileOrderItem
+                id={line_item.id}
                 order={line_item}
                 key={line_item.id}
                 index={index}
-                onChange={props.onToggle}
+                // onChange={props.onToggle}
+                removeLineItemInCart={removeLineItemInCart}
             />
-        )
+        );
     });
     return (
         <ul className={s.profileOrderList}>

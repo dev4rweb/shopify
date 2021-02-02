@@ -23,19 +23,20 @@ const Orders = lazy(() => import("./routes/Orders/Orders"));
 
 
 function App(props) {
-    /*Api key - 11d94cb06dca9a628b1e9b010307dfe2*/
-    /*API secret key - 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*/
+    let client = props.client;
+    /*    Api key - 11d94cb06dca9a628b1e9b010307dfe2
+        API secret key - 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
 
-    /*https://shopify.github.io/shopify-app-cli/*/
+        https://shopify.github.io/shopify-app-cli/
 
-    /*https://youtu.be/yWyCZbSysMs*/
-    /*https://youtu.be/AZna1vyOLi0*/
+        https://youtu.be/yWyCZbSysMs
+        https://youtu.be/AZna1vyOLi0
 
-    /*https://github.com/Shopify/shopify-demo-app-node-react*/
-    /*https://github.com/Shopify/storefront-api-examples*/
+        https://github.com/Shopify/shopify-demo-app-node-react
+        https://github.com/Shopify/storefront-api-examples
 
-    /*yarn add shopify-buy*/
-    /*yarn add detect-browser-language*/
+        yarn add shopify-buy
+        yarn add detect-browser-language*/
 
     const [stateData, dispatchData] = React.useReducer(ReducerData, StateData);
 
@@ -63,8 +64,19 @@ function App(props) {
         })
     }
 
-
     let lang = stateData.lang;
+
+    function removeLineItemInCart(lineItemId) {
+        const checkoutId = stateData.checkout.id;
+
+        return client.checkout.removeLineItems(checkoutId, [lineItemId])
+            .then(res => {
+                dispatchData({
+                    type: 'REMOVE_ITEM_IN_CART',
+                    payload: res
+                })
+            });
+    }
 
     return (
         <ContextData.Provider value={{stateData, dispatchData}}>
@@ -73,13 +85,24 @@ function App(props) {
                 <main>
                     <Suspense fallback={<Preloader/>}>
                         <Switch>
-                            <Route path={`/`} exact component={Main}/>
+                            <Route
+                                path={`/`} exact
+                                render={props => (<Main client={client} {...props} />)}
+                            />
+                            {/*<Route path={`/`} exact component={Main}/>*/}
                             <Route path={`/guarantee`} component={Guarantee}/>
                             <Route path={`/payment`} component={Payment}/>
                             <Route path={`/refund`} component={Refund}/>
                             <Route path={`/about`} component={About}/>
                             <Route path={`/contacts`} component={Contacts}/>
-                            <Route path={`/profile`} component={Profile}/>
+                            <Route
+                                path={`/profile`}
+                                render={props => (<Profile
+                                    removeLineItemInCart={removeLineItemInCart}
+                                    {...props}
+                                />)}
+                            />
+                            {/*<Route path={`/profile`} component={Profile}/>*/}
                             <Route path={`/auth`} component={Auth}/>
                             <Route path={`/orders`} component={Orders}/>
                             <Route component={Errors}/>

@@ -8,6 +8,8 @@ import ContextData from "../../../context/Data/ContextData";
 const ProfileOrders = (props) => {
     const {stateData, dispatchData} = React.useContext(ContextData);
 
+    let removeLineItemInCart = props.removeLineItemInCart;
+
     let totalPrice = stateData.checkout.totalPrice;
 
     const lang = props.lang || 'ru';
@@ -41,7 +43,6 @@ const ProfileOrders = (props) => {
     }
 
 
-
     return (
         <div className={s.profileOrders}>
             <h6 className={s.header}>
@@ -53,6 +54,7 @@ const ProfileOrders = (props) => {
                     <ProfileOrderList
                         orders={orders}
                         onToggle={toggleOrder}
+                        removeLineItemInCart={removeLineItemInCart}
                     />
                 ) : (
                     <p>No orders!</p>

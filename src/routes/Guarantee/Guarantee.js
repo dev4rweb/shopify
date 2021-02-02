@@ -12,7 +12,8 @@ import icCreditCard from '../../assets/img/png/ic-credit-card.png'
 import icDelivery from '../../assets/img/png/ic-delivery.png'
 import ContextData from "../../context/Data/ContextData";
 
-const Guarantee = () => {
+const Guarantee = (props) => {
+
     const {stateData} = React.useContext(ContextData);
     let lang = stateData.lang;
     const infoCard = stateData.infoCard;

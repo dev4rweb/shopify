@@ -12,12 +12,14 @@ import ContextData from "../../context/Data/ContextData";
 
 const Main = (props) => {
 
+    let client = props.client;
+
     /*https://github.com/Shopify/js-buy-sdk*/
     /*yarn add shopify-buy*/
-    const client = Client.buildClient({
-        storefrontAccessToken: 'bd14e50edce31aa6b246e2daf334ef2a',
-        domain: 'testsoftkey.myshopify.com'
-    });
+    // const client = Client.buildClient({
+    //     storefrontAccessToken: 'bd14e50edce31aa6b246e2daf334ef2a',
+    //     domain: 'testsoftkey.myshopify.com'
+    // });
 
     const {stateData, dispatchData} = React.useContext(ContextData);
     const products = stateData.products;
@@ -36,7 +38,7 @@ const Main = (props) => {
                 console.log(e);
             }
         };
-        const fetchCheckout = async ()=> {
+        const fetchCheckout = async () => {
             try {
                 client.checkout.create()
                     .then((res) => {
@@ -49,12 +51,12 @@ const Main = (props) => {
                 console.log(e);
             }
         };
-        const fetchShop = async ()=>{
+        const fetchShop = async () => {
             try {
                 client.shop.fetchInfo()
-                    .then((res)=>{
+                    .then((res) => {
                         dispatchData({
-                            type:"FETCH_SHOP",
+                            type: "FETCH_SHOP",
                             payload: res
                         })
                     });
