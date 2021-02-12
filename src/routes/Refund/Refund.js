@@ -6,7 +6,7 @@ import RefundFormik from "../../components/ui/refund/RefundFormik/RefundFormik";
 import ContextData from "../../context/Data/ContextData";
 
 const Refund = () => {
-    const {stateData, dispatchData} = React.useContext(ContextData);
+    const {stateData} = React.useContext(ContextData);
     let lang = stateData.lang;
     let breadcrumbs = stateData.breadcrumbs.refundPage[lang] ||
         'Обмен и возврат';
@@ -19,7 +19,7 @@ const Refund = () => {
                 <Breadcrumbs title={breadcrumbs}/>
                 <div className={s.imgContainer}>
                     <p>{firstBlock}</p>
-                    <img src={image} alt="image"/>
+                    <img src={image} alt="refund"/>
                 </div>
                 <div className={s.content}>
                     <p>{secondBlock}</p>

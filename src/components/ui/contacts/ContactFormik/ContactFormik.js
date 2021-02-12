@@ -1,10 +1,7 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import s from './ContactFormik.module.scss';
-import ReactDOM from "react-dom";
-import {Formik, Field, Form} from "formik";
+import {Formik, Field} from "formik";
 import GradientButton from "../../GradientButton/GradientButton";
-import ReactCheckbox from "../../../libs/CusttomCheckboxes/ReactCheckbox/ReactCheckbox";
-import Checkbox from "react-custom-checkbox";
 import FormikCheckbox from "../../../libs/CusttomCheckboxes/FormikCheckbox/FormikCheckbox";
 
 const ContactFormik = (props) => {
@@ -51,7 +48,7 @@ const ContactFormik = (props) => {
                                 values={values.isRobots}
                                 lang={lang} data={props.data.cbRobots}
                             />
-                            <a className={s.agree} href="#">{tRobots}</a>
+                            <a href={`/`} className={s.agree} >{tRobots}</a>
                         </div>
                         <Field className={s.textarea} name="text" component="textarea"
                                placeholder={taMsg}/>

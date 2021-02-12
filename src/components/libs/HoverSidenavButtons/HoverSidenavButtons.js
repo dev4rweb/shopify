@@ -4,7 +4,7 @@ import ContextData from "../../../context/Data/ContextData";
 
 const HoverSidenavButtons = () => {
 
-    const {stateData, dispatchData} = React.useContext(ContextData);
+    const {dispatchData} = React.useContext(ContextData);
 
     const handleClick = (ev, category) => {
         ev.preventDefault();
@@ -19,7 +19,7 @@ const HoverSidenavButtons = () => {
         <div className={s.sidenav}>
             <div className={s.item}>
                 <a
-                    href="#"
+                    href={`/`}
                     className={s.windows}
                     onClick={(ev)=> handleClick(ev, 'Windows')}
                 >
@@ -28,7 +28,7 @@ const HoverSidenavButtons = () => {
             </div>
             <div className={s.item}>
                 <a
-                    href="#"
+                    href={`/`}
                     className={s.adobe}
                     onClick={(ev)=> handleClick(ev, 'Adobe')}
                 >
@@ -37,7 +37,7 @@ const HoverSidenavButtons = () => {
             </div>
             <div className={s.item}>
                 <a
-                    href="#"
+                    href={`/`}
                     className={s.antivirus}
                     onClick={(ev)=> handleClick(ev, 'Antivirus')}
                 >
@@ -46,7 +46,7 @@ const HoverSidenavButtons = () => {
             </div>
             <div className={s.item}>
                 <a
-                    href="#"
+                    href={`/`}
                     className={s.sever}
                     onClick={(ev)=> handleClick(ev, 'Server')}
                 >

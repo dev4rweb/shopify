@@ -10,13 +10,13 @@ const OrdersTable = (props) => {
     const tblStatus = props.data.tblStatus ? props.data.tblStatus[lang] : 'text';
     const tblLink = props.data.tblLink ? props.data.tblLink[lang] : 'text';
 
-    const [orders, setOrders] = React.useState([
-        {id: 1, name: 'Microsoft Office 365 pro', price: '638', isBye: 'Оплачено', link: 'Ссылка'},
+    const [orders] = React.useState([
+/*        {id: 1, name: 'Microsoft Office 365 pro', price: '638', isBye: 'Оплачено', link: 'Ссылка'},
         {id: 2, name: 'Microsoft Office 365 pro', price: '638', isBye: 'Оплачено', link: 'Ссылка'},
         {id: 3, name: 'Microsoft Office 365 pro', price: '638', isBye: 'Оплачено', link: 'Ссылка'},
         {id: 4, name: 'Microsoft Office 365 pro', price: '638', isBye: 'Оплачено', link: 'Ссылка'},
         {id: 5, name: 'Microsoft Office 365 pro', price: '638', isBye: 'Оплачено', link: 'Ссылка'},
-        {id: 6, name: 'Microsoft Office 365 pro', price: '638', isBye: 'Оплачено', link: 'Ссылка'},
+        {id: 6, name: 'Microsoft Office 365 pro', price: '638', isBye: 'Оплачено', link: 'Ссылка'},*/
     ]);
 
     return (

@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './Orders.module.scss';
-import ComingSoon from "../../components/libs/ComingSoon/ComingSoon";
 import InfoCard from "../../components/ui/main/InfoCard/InfoCard";
 import imgSupport from "../../assets/img/svg/support.svg";
 import imgAutomatic from "../../assets/img/svg/automatic.svg";

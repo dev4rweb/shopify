@@ -2,8 +2,8 @@ import React from 'react';
 import s from './OrdersRow.module.scss';
 
 const OrdersRow = (props) => {
-    const lang = props.lang || 'ru';
-    const tblName = props.data.tblName ? props.data.tblName[lang] : 'text';
+    // const lang = props.lang || 'ru';
+    // const tblName = props.data.tblName ? props.data.tblName[lang] : 'text';
 
     const index = props.index || 1;
     const name = props.order.name || 'undefined name';

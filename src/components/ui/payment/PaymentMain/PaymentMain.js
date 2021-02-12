@@ -10,7 +10,7 @@ const PaymentMain = (props) => {
     return (
         <div className={s.paymentMain}>
             <p>{content}</p>
-            <img src={image} alt="image"/>
+            <img src={image} alt={`img`}/>
         </div>
     )
 };

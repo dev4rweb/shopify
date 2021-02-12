@@ -4,7 +4,6 @@ import star from '../../../../assets/img/png/ic-star.png';
 import like from '../../../../assets/img/png/ic_like.png';
 import photo from '../../../../assets/img/products/Windows/OC/Microsoft Windows 10 Home.png';
 import basket from '../../../../assets/img/svg/shopping-basket-white.svg';
-import parse, { domToReact } from 'html-react-parser';
 import ContextData from "../../../../context/Data/ContextData";
 
 const Product = (props) => {
@@ -23,14 +22,14 @@ const Product = (props) => {
     let image = product.images.length ? product.images[0].src : photo;
     let price = product.variants[0].price || 'price';
 
-    const removeStylesFromIncomingHtml = (htmlText) =>{
+/*    const removeStylesFromIncomingHtml = (htmlText) =>{
         // const tags = htmlText.getElementsByTagName('span');
         const elems = parse(htmlText);
         console.log('removeStylesFromIncomingHtml - ' + elems);
         return htmlText
-    };
+    };*/
 
-    const options = {
+/*    const options = {
         replace: ({attribs, children}) => {
             if (!attribs) return;
             if (attribs.style) {
@@ -39,9 +38,10 @@ const Product = (props) => {
                 return <strong style={{color: 'red'}}>{domToReact(children, options)}</strong>;
             }
         }
-    };
+    };*/
 
-    function addVariantToCart(variantId, quantity){
+    function addVariantToCart(variantId, quantity, e){
+        e.preventDefault();
         console.log('addVariantToCart  variantId - '
             + variantId + '= quantity - ' + quantity);
         const lineItemsToAdd = [{variantId, quantity: parseInt(quantity, 10)}]
@@ -69,8 +69,8 @@ const Product = (props) => {
                          __html: description
                      }}
                 />
-                <a className={s.button}
-                   onClick={()=> addVariantToCart(variant.id, 1)}>
+                <a href={`/`} className={s.button}
+                   onClick={(e)=> addVariantToCart(variant.id, 1, e)}>
                     <div>
                         <img src={basket} alt="basket"/>
                     </div>

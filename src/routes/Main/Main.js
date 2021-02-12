@@ -80,7 +80,7 @@ const Main = (props) => {
                 console.log(e);
             }
         };
-        const fetchConfig = async () => {
+/*        const fetchConfig = async () => {
             try {
                 // Fetch all collections, including their products
                 client.config.fetch()
@@ -130,7 +130,7 @@ const Main = (props) => {
                 console.log('createCustomer - '+ e);
                 // console.log(client.customerCreate());
             }
-        };
+        };*/
 
         fetchCheckout();
         fetchProducts();

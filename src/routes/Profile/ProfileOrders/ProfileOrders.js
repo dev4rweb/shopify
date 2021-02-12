@@ -2,11 +2,10 @@ import React from 'react';
 import s from './ProfileOrders.module.scss';
 import imgDel from '../../../assets/img/svg/delete.svg'
 import ProfileOrderList from "./ProfileOrderList/ProfileOrderList";
-import GradientButton from "../../../components/ui/GradientButton/GradientButton";
 import ContextData from "../../../context/Data/ContextData";
 
 const ProfileOrders = (props) => {
-    const {stateData, dispatchData} = React.useContext(ContextData);
+    const {stateData} = React.useContext(ContextData);
 
     let removeLineItemInCart = props.removeLineItemInCart;
 

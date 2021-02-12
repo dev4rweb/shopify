@@ -9,7 +9,7 @@ const SocialButton = (props) => {
     const href = props.link || '#';
     return (
         <a href={href} className={s.socialButton} target={`_blank`}>
-            <img src={image} alt="image"/>
+            <img src={image} alt={`img`}/>
             <div>
                 <p>{title}</p>
                 <span>{text}</span>

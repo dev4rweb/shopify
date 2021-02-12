@@ -1,5 +1,4 @@
 import React from 'react';
-import s from './ReactCheckbox.module.scss';
 import * as Icon from 'react-icons/fi';
 import Checkbox from "react-custom-checkbox";
 import logo from '../../../../assets/img/png/logo200x200.png';
@@ -17,12 +16,12 @@ const ReactCheckbox = () => {
                 icon={<Icon.FiCheck color={`#00ccff`} size={14}/>}
                 name={`my-input`}
                 checked={true}
-                onChange={(value) => {
+/*                onChange={(value) => {
                     let p = {
                         isTrue: value,
                     };
                     return alert(value);
-                }}
+                }}*/
                 borderColor={`#ba00ff`}
                 style={{cursor: 'pointer'}}
                 labelStyle={{marginLeft: 5, userSelect: 'none'}}

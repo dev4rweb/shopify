@@ -5,7 +5,7 @@ const PaymentCart = (props) => {
     return (
         <div className={s.paymentCart}>
             <span>{props.number}</span>
-            <img src={props.image} alt="image"/>
+            <img src={props.image} alt={`img`}/>
             <h6>{props.content}</h6>
         </div>
     )

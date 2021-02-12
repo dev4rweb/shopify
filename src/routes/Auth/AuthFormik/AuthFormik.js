@@ -39,7 +39,7 @@ const AuthFormik = (props) => {
                                 lang={lang}
                                 data={data.cbRobots}
                             />
-                            <a className={s.agree} href="#">{forgotMsg}</a>
+                            <a href={`/`} className={s.agree} >{forgotMsg}</a>
                         </div>
                         <GradientButton
                             className={s.button}

@@ -6,7 +6,7 @@ const Breadcrumbs = (props) => {
         <div className={s.breadcrumbs}>
             <div>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href={`/`}>Home</a></li>
                     <li>{props.title}</li>
                 </ul>
                 <span>☰</span>

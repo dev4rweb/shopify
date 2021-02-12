@@ -5,15 +5,26 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/CusttomCheckboxes/ReactCheckbox/ReactCheckbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/CusttomCheckboxes/ReactCheckbox/ReactCheckbox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/libs/HoverSidenavButtons/HoverSidenavButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/HoverSidenavButtons/HoverSidenavButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Cards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/Data/ReducerData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/Data/ReducerData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/Data/StateData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/Data/StateData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/buttons/SocialButton/SocialButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/buttons/SocialButton/SocialButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/menus/Breadcrumbs/Breadcrumbs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/menus/Breadcrumbs/Breadcrumbs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/contacts/ContactFormik/ContactFormik.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/contacts/ContactFormik/ContactFormik.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/payment/Coupon/Coupon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/payment/Coupon/Coupon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/payment/PaymentCard/PaymentCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentCard/PaymentCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/payment/PaymentMain/PaymentMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/payment/PaymentMain/PaymentMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Auth/AuthFormik/AuthFormik.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/AuthFormik/AuthFormik.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Auth/RegisterFormik/RegisterFormik.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Auth/RegisterFormik/RegisterFormik.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Orders/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/Orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersRow/OrdersRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersRow/OrdersRow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Orders/OrdersTable/OrdersTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrderList/ProfileOrderList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileOrders/ProfileOrders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Refund/Refund.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Refund/Refund.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,7 +187,8 @@
       <workItem from="1612503586641" duration="3896000" />
       <workItem from="1612862679443" duration="1476000" />
       <workItem from="1612868951759" duration="870000" />
-      <workItem from="1613093661498" duration="13691000" />
+      <workItem from="1613093661498" duration="13767000" />
+      <workItem from="1613113640861" duration="5179000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -374,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612283663587</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="create filter by category">
+      <created>1613107838391</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1613107838391</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +417,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/shopify" />
     </ignored-roots>
-    <MESSAGE value="creating Navbar" />
     <MESSAGE value="creating Page coming soon" />
     <MESSAGE value="creating Preloader" />
     <MESSAGE value="add icon to navbar" />
@@ -423,6 +441,7 @@
     <MESSAGE value="translated all pages" />
     <MESSAGE value="edit profile orders with basket using state" />
     <MESSAGE value="create catalog function with shopping cart and remove function" />
-    <option name="LAST_COMMIT_MESSAGE" value="create catalog function with shopping cart and remove function" />
+    <MESSAGE value="create filter by category" />
+    <option name="LAST_COMMIT_MESSAGE" value="create filter by category" />
   </component>
 </project>

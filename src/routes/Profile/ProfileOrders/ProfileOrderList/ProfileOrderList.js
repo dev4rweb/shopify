@@ -7,7 +7,7 @@ const ProfileOrderList = (props) => {
 
     let removeLineItemInCart = props.removeLineItemInCart;
 
-    const {stateData, dispatchData} = React.useContext(ContextData);
+    const {stateData} = React.useContext(ContextData);
 
 
 

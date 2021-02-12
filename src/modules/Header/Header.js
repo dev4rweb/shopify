@@ -10,7 +10,7 @@ import ContextData from "../../context/Data/ContextData";
 
 const Header = (props) => {
 const headerRef = React.createRef();
-    const {stateData, dispatchData} = React.useContext(ContextData);
+    const {stateData} = React.useContext(ContextData);
     let basketCount = stateData.checkout.lineItems.length;
     let lang = stateData.lang;
     let header = stateData.header;

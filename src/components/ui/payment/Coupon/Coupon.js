@@ -7,7 +7,7 @@ const Coupon = () => {
     return (
         <div className={s.coupon}>
             <div className={s.image}>
-                <img src={img} alt="image"/>
+                <img src={img} alt={`img`}/>
             </div>
             <CouponFormik/>
         </div>

@@ -48,7 +48,7 @@ const RegisterFormik = (props) => {
                                 lang={lang}
                                 data={data.cbRobots}
                             />
-                            <a className={s.agree} href="#">
+                            <a href={`/`} className={s.agree}>
                                 {tPolitics}
                             </a>
                         </div>
