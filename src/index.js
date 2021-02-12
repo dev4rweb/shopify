@@ -8,9 +8,14 @@ import Client from 'shopify-buy';
 
 /*https://github.com/Shopify/js-buy-sdk*/
 /*yarn add shopify-buy*/
-const client = Client.buildClient({
+/*const client = Client.buildClient({
     storefrontAccessToken: 'bd14e50edce31aa6b246e2daf334ef2a',
     domain: 'testsoftkey.myshopify.com'
+});*/
+
+const client = Client.buildClient({
+    storefrontAccessToken: '7f84c717e4d328702750d92c4390fb1c',
+    domain: 'http-softkey-dog.myshopify.com'
 });
 
 ReactDOM.render(

@@ -1,5 +1,5 @@
 const ReducerData = (state, action) => {
-    console.log(action);
+    // console.log(action);
     switch (action.type) {
         case "FETCH_PRODUCTS":
             return {
@@ -21,6 +21,21 @@ const ReducerData = (state, action) => {
                 ...state,
                 checkout: action.payload
             };
+        case "FETCH_COLLECTION":
+            return {
+                ...state,
+                collection: action.payload
+            };
+        case "FETCH_CONFIG":
+            return {
+                ...state,
+                config: action.payload
+            };
+        case "FETCH_GRAPH":
+            return {
+                ...state,
+                graph: action.payload
+            };
         case "FETCH_SHOP":
             return {
                 ...state,
@@ -35,6 +50,11 @@ const ReducerData = (state, action) => {
             return {
                 ...state,
                 checkout: action.payload
+            };
+        case "FILTER_BY_CATEGORY":
+            return {
+                ...state,
+                filter: action.payload
             };
         default:
             return state

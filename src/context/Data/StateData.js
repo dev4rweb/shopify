@@ -1,9 +1,13 @@
 const StateData = {
     isLoggedIn: false,
+    filter: null,
     lang: [],
     products: [],
     checkout: {lineItems: []},
+    collection: {},
     shop: {},
+    config: {},
+    graph: {},
     header: {
         cabinet: {
             ru: 'Личный кабинет', en: 'Personal Area'

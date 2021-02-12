@@ -7,7 +7,6 @@ import imgCard from './../../assets/img/svg/credit-card.svg';
 import Promo from "../../components/libs/Promo/Promo";
 import Breadcrumbs from "../../components/libs/menus/Breadcrumbs/Breadcrumbs";
 import Cards from "../../components/libs/ProductCards/Cards";
-import Client from 'shopify-buy';
 import ContextData from "../../context/Data/ContextData";
 
 const Main = (props) => {
@@ -59,14 +58,87 @@ const Main = (props) => {
                             type: "FETCH_SHOP",
                             payload: res
                         })
+                        // console.log(client.shop)
                     });
             } catch (e) {
                 console.log(e);
             }
         };
+        const fetchCollection = async () => {
+            try {
+                // Fetch all collections, including their products
+                client.collection.fetchAllWithProducts()
+                    .then((collections) => {
+                        dispatchData({
+                            type: "FETCH_COLLECTION",
+                            payload: collections
+                        });
+                        /*console.log(collections);
+                        console.log(collections[0].products);*/
+                    });
+            } catch (e) {
+                console.log(e);
+            }
+        };
+        const fetchConfig = async () => {
+            try {
+                // Fetch all collections, including their products
+                client.config.fetch()
+                    .then((config) => {
+                        dispatchData({
+                            type: "FETCH_CONFIG",
+                            payload: config
+                        });
+                        console.log(config);
+                    });
+            } catch (e) {
+                console.log('fetchConfig = '+e);
+                // console.log('fetchConfig = '+client.config);
+            }
+        };
+        const fetchGraph = async () => {
+            try {
+                // Fetch all collections, including their products
+                client.graphQLClient.fetchAll()
+                    .then((data) => {
+                        dispatchData({
+                            type: "FETCH_GRAPH",
+                            payload: data
+                        });
+                        console.log(data);
+                    });
+            } catch (e) {
+                console.log('fetchGraph'+e);
+                console.log('fetchGraph'+client.config);
+            }
+        };
+        const createCustomer = async () => {
+            const data = [{
+                "email": "user@example.com",
+                "password": "HiZqFuDvDdQ7"
+            }];
+            try {
+                if (client) {
+                    client.checkout.customerCreate.customer(data)
+                        .then((res) => {
+                            console.log(res)
+                        });
+                } else {
+                    console.log("CLIENT NULL");
+                }
+            } catch (e) {
+                console.log('createCustomer - '+ e);
+                // console.log(client.customerCreate());
+            }
+        };
+
         fetchCheckout();
         fetchProducts();
         fetchShop();
+        fetchCollection();
+        // createCustomer();
+        // fetchConfig();
+        // fetchGraph();
     }, []);
 
     let lang = stateData.lang;

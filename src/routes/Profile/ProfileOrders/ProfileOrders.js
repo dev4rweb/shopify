@@ -10,6 +10,7 @@ const ProfileOrders = (props) => {
 
     let removeLineItemInCart = props.removeLineItemInCart;
 
+
     let totalPrice = stateData.checkout.totalPrice;
 
     const lang = props.lang || 'ru';
@@ -42,6 +43,10 @@ const ProfileOrders = (props) => {
         setOrders(orders.filter(order => order.isRemove === false));
     }
 
+    const loadData = async () => {
+        window.open(stateData.checkout.webUrl);
+
+    };
 
     return (
         <div className={s.profileOrders}>
@@ -62,7 +67,11 @@ const ProfileOrders = (props) => {
             </div>
             <div className={s.footer}>
                 <div className={s.sumWrapper}>
-                    <button className={s.btnGradient}>{btnPay}</button>
+                    <button
+                        className={s.btnGradient}
+                        onClick={() => loadData()}>
+                        {btnPay}
+                    </button>
                     <span className={s.sum}>{totalPrice} $</span>
                 </div>
                 <p className={s.promo}>{btnPromo}</p>

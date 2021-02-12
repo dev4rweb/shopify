@@ -60,9 +60,11 @@
       color: $menuTextColor;
     }
 
-    p {
+    .description {
       font-size: 14px;
       color: $menuTextColor;
+      overflow: hidden;
+      max-height: 150px;
     }
 
     .button {
@@ -71,6 +73,7 @@
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
       margin-bottom: 20px;
+      margin-top: 20px;
       cursor: pointer;
 
       & > div {
@@ -112,6 +115,11 @@
     -webkit-box-shadow: $boxShadowHover;
     -moz-box-shadow: $boxShadowHover;
     box-shadow: $boxShadowHover;
+    max-height: none;
+
+    .info .description:hover {
+      max-height: none;
+    }
   }
 }
 
