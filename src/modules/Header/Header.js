@@ -23,7 +23,7 @@ const headerRef = React.createRef();
                 </div>
                 <div className={s.account_box}>
                     <NavLink to={`/profile`}><img className={s.user} src={user} alt="icon user"/></NavLink>
-                    <NavLink to={`/auth`} className={s.logout}>
+                    <NavLink to={`/`} className={s.logout}>
                         <img src={logout} alt="logout"/>
                     </NavLink>
                     <div className={s.account_info}>

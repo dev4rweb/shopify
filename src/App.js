@@ -24,19 +24,6 @@ const Orders = lazy(() => import("./routes/Orders/Orders"));
 
 function App(props) {
     let client = props.client;
-    /*    Api key - 11d94cb06dca9a628b1e9b010307dfe2
-        API secret key - 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
-
-        https://shopify.github.io/shopify-app-cli/
-
-        https://youtu.be/yWyCZbSysMs
-        https://youtu.be/AZna1vyOLi0
-
-        https://github.com/Shopify/shopify-demo-app-node-react
-        https://github.com/Shopify/storefront-api-examples
-
-        yarn add shopify-buy
-        yarn add detect-browser-language*/
 
     const [stateData, dispatchData] = React.useReducer(ReducerData, StateData);
 

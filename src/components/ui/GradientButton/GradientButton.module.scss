@@ -6,7 +6,6 @@
   background-image: linear-gradient(360deg, #9628ff 11%, #0ebdff 100%);
   border: none;
   outline: none;
-  color: white;
   text-decoration: underline;
   font-size: 18px;
   padding: 30px;
@@ -28,5 +27,8 @@
     transform: scale(1.05, 1.05);
     box-shadow: $boxShadow;
     background-image: linear-gradient(180deg, #9628ff 11%, #0ebdff 100%);
+  }
+  a{
+    color: white;
   }
 }

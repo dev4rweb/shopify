@@ -66,7 +66,14 @@ const Contacts = () => {
                         <p dangerouslySetInnerHTML={{__html: techSup}}/>
                     </div>
                     <div className={s.btn}>
-                        <button>{btnSup}</button>
+                        <button>
+                            <a
+                                href="https://t.me/softkeydog_bot"
+                                target={`_blank`}
+                            >
+                                {btnSup}
+                            </a>
+                        </button>
                     </div>
                     <div>
                         <p dangerouslySetInnerHTML={{__html: techSupport}}/>

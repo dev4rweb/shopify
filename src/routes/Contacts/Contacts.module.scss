@@ -52,10 +52,8 @@
           border: none;
           max-width: 300px;
           background-image: linear-gradient(170deg, $btnPriceStart 11%, $btnPriceEnd 60%);
+
           padding: 22px;
-          font-family: 'Montserrat', sans-serif;
-          font-size: 32px;
-          color: white;
           -webkit-border-radius: 10px;
           -moz-border-radius: 10px;
           border-radius: 10px;
@@ -72,6 +70,11 @@
             -o-transform: scale(1.05, 1.05);
             transform: scale(1.05, 1.05);
             background-image: linear-gradient(10deg, $btnPriceStart 11%, $btnPriceEnd 60%);
+          }
+          a {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 32px;
+            color: white;
           }
         }
       }
