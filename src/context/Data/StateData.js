@@ -269,9 +269,9 @@ const StateData = {
         }
     },
     profileCard: {
-        fullName: 'DesHellArt',
-        name: 'Des',
-        surname: 'Hell',
+        fullName: 'SoftKey.Dog',
+        name: 'SoftKey',
+        surname: 'Dog',
         regDate: '12.11.2020',
         tName: {
             ru: 'Имя: ',

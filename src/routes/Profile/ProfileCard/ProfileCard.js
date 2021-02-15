@@ -25,8 +25,19 @@ const ProfileCard = (props) => {
                 </div>
             </div>
             <div className={s.btnWrapper}>
-                <button>{btnSend}</button>
-                <button>{btnSupport}</button>
+                <button>
+                    <a href="https://t.me/softkeydog_bot"
+                       target={`_blank`}>
+                        {btnSend}
+                    </a>
+                </button>
+                <button>
+                    <a
+                        href="https://t.me/softkeydog_bot"
+                       target={`_blank`}>
+                        {btnSupport}
+                    </a>
+                </button>
             </div>
         </div>
     )

@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {useState, useContext} from 'react';
 import s from './Product.module.scss';
 import star from '../../../../assets/img/png/ic-star.png';
 import like from '../../../../assets/img/png/ic_like.png';
 import photo from '../../../../assets/img/products/Windows/OC/Microsoft Windows 10 Home.png';
 import basket from '../../../../assets/img/svg/shopping-basket-white.svg';
 import ContextData from "../../../../context/Data/ContextData";
+import CustomInputNumber from "../../customInputs/CustomInputNumber/CustomInputNumber";
 
 const Product = (props) => {
     /*yarn add html-react-parser*/
-    const {stateData, dispatchData} = React.useContext(ContextData);
+    const {stateData, dispatchData} = useContext(ContextData);
+    const [quantity, setQuantity] = useState(1);
     // console.log(props.product);
     let product = props.product;
     let client = props.client;
@@ -22,33 +24,20 @@ const Product = (props) => {
     let image = product.images.length ? product.images[0].src : photo;
     let price = product.variants[0].price || 'price';
 
-/*    const removeStylesFromIncomingHtml = (htmlText) =>{
-        // const tags = htmlText.getElementsByTagName('span');
-        const elems = parse(htmlText);
-        console.log('removeStylesFromIncomingHtml - ' + elems);
-        return htmlText
-    };*/
+    function quantityHandler(quantity) {
+        setQuantity(quantity);
+        console.log(quantity);
+    }
 
-/*    const options = {
-        replace: ({attribs, children}) => {
-            if (!attribs) return;
-            if (attribs.style) {
-                attribs.style = '';
-                console.log(children);
-                return <strong style={{color: 'red'}}>{domToReact(children, options)}</strong>;
-            }
-        }
-    };*/
-
-    function addVariantToCart(variantId, quantity, e){
+    function addVariantToCart(variantId, quantity, e) {
         e.preventDefault();
         console.log('addVariantToCart  variantId - '
             + variantId + '= quantity - ' + quantity);
-        const lineItemsToAdd = [{variantId, quantity: parseInt(quantity, 10)}]
+        const lineItemsToAdd = [{variantId, quantity: parseInt(quantity, 10)}];
         const checkoutId = stateData.checkout.id;
 
         return client.checkout.addLineItems(checkoutId, lineItemsToAdd)
-            .then(res=>{
+            .then(res => {
                 dispatchData({
                     type: "FETCH_CHECKOUT",
                     payload: res
@@ -70,12 +59,13 @@ const Product = (props) => {
                      }}
                 />
                 <a href={`/`} className={s.button}
-                   onClick={(e)=> addVariantToCart(variant.id, 1, e)}>
+                   onClick={(e) => addVariantToCart(variant.id, quantity, e)}>
                     <div>
                         <img src={basket} alt="basket"/>
                     </div>
                     <h5>{price} $</h5>
                 </a>
+                <CustomInputNumber quantityHandler={quantityHandler} quantity={quantity}/>
             </div>
         </div>
     )

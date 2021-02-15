@@ -48,9 +48,6 @@
       border: none;
       margin: 7px;
       background-color: $bg_main;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bold;
-      font-size: 18px;
       color: $menuTextColor;
       -webkit-transition: all .3s;
       -moz-transition: all .3s;
@@ -67,6 +64,11 @@
         -o-transform: scale(1.05, 1.05);
         transform: scale(1.05, 1.05);
         color: $blueText;
+      }
+      a{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
       }
     }
   }

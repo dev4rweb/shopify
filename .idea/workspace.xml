@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f73ef14-174f-4074-9621-d5e3c81a85e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/libs/customInputs/CustomInputNumber/CustomInputNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/libs/customInputs/CustomInputNumber/CustomInputNumber.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/GradientButton/GradientButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/GradientButton/GradientButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/GradientButton/GradientButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/GradientButton/GradientButton.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify.rar" beforeDir="false" afterPath="$PROJECT_DIR$/shopify.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/libs/ProductCards/Product/Product.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/Data/StateData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/Data/StateData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileCard/ProfileCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileCard/ProfileCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Profile/ProfileCard/ProfileCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Profile/ProfileCard/ProfileCard.module.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -173,7 +176,9 @@
       <workItem from="1612868951759" duration="870000" />
       <workItem from="1613093661498" duration="13767000" />
       <workItem from="1613113640861" duration="7526000" />
-      <workItem from="1613150538066" duration="1578000" />
+      <workItem from="1613150538066" duration="4305000" />
+      <workItem from="1613284738732" duration="667000" />
+      <workItem from="1613364380342" duration="11317000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1610465405411</created>
@@ -385,11 +390,239 @@
       <option name="project" value="LOCAL" />
       <updated>1613119097227</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add telegram link to buttons">
+      <created>1613152226209</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1613152226209</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/rsuite-table/src/HeaderCell.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite-table/src/ColumnGroup.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite-table/src/Table.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite-table/src/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite-table/src/Row.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite-table/src/Scrollbar.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite-table/src/Column.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite-table/src/CellGroup.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite-table/src/ColumnResizeHandler.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite-table/src/Cell.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Affix/Affix.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Affix/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Alert/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Alert/Alert.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Animation/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/AutoComplete/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/AutoComplete/AutoCompleteItem.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/AutoComplete/AutoComplete.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Avatar/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Avatar/Avatar.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Badge/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Badge/Badge.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Breadcrumb/BreadcrumbItem.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Breadcrumb/Breadcrumb.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Breadcrumb/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Button/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Button/Button.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/ButtonGroup/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/ButtonGroup/ButtonGroup.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/ButtonToolbar/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/ButtonToolbar/ButtonToolbar.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Calendar/CalendarPanel.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Calendar/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Carousel/Carousel.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Carousel/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Cascader/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Cascader/Cascader.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Checkbox/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Checkbox/Checkbox.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/CheckboxGroup/CheckboxGroup.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/CheckboxGroup/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/CheckPicker/CheckPicker.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/CheckPicker/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/CheckTree/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/CheckTreePicker/CheckTreePicker.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/CheckTreePicker/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Col/Col.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Col/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Container/Container.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Container/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Content/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Content/Content.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/ControlLabel/ControlLabel.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/ControlLabel/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/DatePicker/DatePicker.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/DatePicker/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/DateRangePicker/DateRangePicker.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/DateRangePicker/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Divider/Divider.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Divider/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/DOMHelper/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Drawer/Drawer.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Drawer/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Dropdown/DropdownMenu.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Dropdown/Dropdown.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Dropdown/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Dropdown/DropdownMenuItem.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/ErrorMessage/ErrorMessage.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/ErrorMessage/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/FlexboxGrid/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/FlexboxGrid/FlexboxGrid.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/FlexboxGrid/FlexboxGridItem.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Footer/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Footer/Footer.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Form/Form.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Form/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/FormControl/FormControl.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/FormControl/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/FormGroup/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/FormGroup/FormGroup.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Grid/Grid.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Grid/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Header/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Header/Header.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/HelpBlock/HelpBlock.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/HelpBlock/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Icon/Icon.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Icon/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IconButton/IconButton.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IconButton/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IconStack/IconStack.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IconStack/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Input/Input.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Input/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/InputGroup/InputGroupAddon.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/InputGroup/InputGroup.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/InputGroup/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/InputGroup/InputGroupButton.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/InputNumber/InputNumber.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/InputNumber/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/InputPicker/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/InputPicker/InputPicker.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/IntlProvider.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/List/ListItem.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/List/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/List/List.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Loader/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Loader/Loader.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Message/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Message/Message.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Modal/Modal.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Modal/ModalDialog.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Modal/ModalBody.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Modal/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Modal/ModalContext.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Modal/ModalTitle.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Modal/ModalFooter.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Modal/ModalHeader.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/MultiCascader/MultiCascader.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/MultiCascader/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Nav/Nav.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Nav/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Nav/NavItem.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Navbar/Navbar.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Navbar/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Notification/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Notification/Notification.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Overlay/OverlayTrigger.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Pagination/PaginationButton.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Pagination/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Pagination/Pagination.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Panel/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Panel/Panel.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/PanelGroup/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/PanelGroup/PanelGroup.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Placeholder/PlaceholderGraph.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Placeholder/Placeholder.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Placeholder/PlaceholderParagraph.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Placeholder/PlaceholderGrid.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Placeholder/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Popover/Popover.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Popover/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Portal/Portal.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Portal/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Progress/ProgressLine.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Progress/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Progress/ProgressCircle.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Progress/Progress.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Radio/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Radio/Radio.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/RadioGroup/RadioGroup.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/RadioGroup/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/RangeSlider/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/RangeSlider/RangeSlider.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Rate/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Rate/Rate.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Ripple/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Ripple/Ripple.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Row/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Row/Row.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/SafeAnchor/SafeAnchor.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/SafeAnchor/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Schema/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/SelectPicker/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/SelectPicker/SelectPicker.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Sidebar/Sidebar.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Sidebar/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Sidenav/SidenavBody.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Sidenav/SidenavHeader.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Sidenav/Sidenav.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Sidenav/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Sidenav/SidenavToggle.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Slider/Slider.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Slider/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Steps/StepItem.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Steps/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Steps/Steps.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Table/Table.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Table/TablePagination.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Table/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Tag/Tag.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Tag/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/TagGroup/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/TagGroup/TagGroup.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/TagPicker/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Timeline/TimelineItem.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Timeline/Timeline.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Timeline/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Toggle/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Toggle/Toggle.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Tooltip/Tooltip.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Tooltip/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Tree/Tree.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Tree/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/TreePicker/TreePicker.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/TreePicker/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Uploader/Uploader.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Uploader/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Whisper/Whisper.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/Whisper/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/en_GB.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/ar_EG.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/zh_CN.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/es_ES.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/pt_BR.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/ko_KR.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/index.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/fi_FI.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/da_DK.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/zh_TW.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/it_IT.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/en_US.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/ru_RU.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/sv_SE.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/rsuite/src/IntlProvider/locales/es_AR.d.ts" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -409,7 +642,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/shopify" />
     </ignored-roots>
-    <MESSAGE value="creating Preloader" />
     <MESSAGE value="add icon to navbar" />
     <MESSAGE value="add id change to ref" />
     <MESSAGE value="create language select box" />
@@ -434,6 +666,7 @@
     <MESSAGE value="create catalog function with shopping cart and remove function" />
     <MESSAGE value="create filter by category" />
     <MESSAGE value="fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+    <MESSAGE value="add telegram link to buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="add telegram link to buttons" />
   </component>
 </project>
